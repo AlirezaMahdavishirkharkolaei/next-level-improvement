@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Next Level Improvement</title>
+<meta name="description" content="Next Level Improvement is a home remodeling company in Centreville, Virginia: kitchen and bathroom remodeling, flooring and house painting. Call (571) 674-3082.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Next Level Improvement | Remodeling in Centreville, VA">
+<meta property="og:description" content="Kitchens, bathrooms, flooring and painting for Northern Virginia homes.">
+<meta name="theme-color" content="#56698E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 200 200%27%3E%3Crect width=%27200%27 height=%27200%27 rx=%2736%27 fill=%27%23111A38%27/%3E%3Cg fill=%27none%27 stroke=%27%23C9A96E%27 transform=%27translate(0 12)%27%3E%3Cpath d=%27M34 160V74L100 18l66 56v86%27 stroke-width=%278%27/%3E%3Cpath d=%27M58 158V136h26v-24h26V88h26V66%27 stroke-width=%2714%27/%3E%3Cpath d=%27M20 160h160%27 stroke-width=%278%27/%3E%3C/g%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeAndConstructionBusiness",
+  "name": "Next Level Improvement",
+  "slogan": "Next Level Improvement",
+  "telephone": "+1-571-674-3082",
+  "email": "nexetlevelimprovementllc@gmail.com",
+  "address": {"@type": "PostalAddress","addressLocality": "Centreville","addressRegion": "VA","postalCode": "20120","addressCountry": "US"},
+  "areaServed": "Centreville, VA",
+  "knowsAbout": ["Kitchen remodeling","Bathroom remodeling","Flooring installation","House painting"]
+}
+</script>
+<style>
+/* Layout idea: classic remodeler site. Boxed logo + divided nav on white, slate-blue bands,
+   serif display with italic subtitles, checkerboard image/text blocks, translucent cards over
+   blueprint imagery, dark charcoal contact footer. Single brand theme. */
+:root{
+  --slate:#56698E;   /* main brand band color */
+  --slate-d:#3F506A; /* headings on white */
+  --navy:#1F2F6B;    /* deep accent blocks, buttons */
+  --sky:#B4C8DC;     /* light panels */
+  --char:#282936;    /* footer */
+  --crimson:#C2274B; /* active nav */
+  --ink:#1E1E1E;
+  --grey:#EDEFF2;
+  --serif:"Playfair Display", Didot, "Bodoni MT", Georgia, serif;
+  --ui:"Poppins", "Helvetica Neue", Arial, sans-serif;
+  --body:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+html.lenis{scroll-behavior:auto}
+body{margin:0;background:#fff;color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.7}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:700;line-height:1.15;margin:0;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+:focus-visible{outline:3px solid var(--crimson);outline-offset:3px}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* shared text treatments */
+.t-title{font-family:var(--serif);font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--slate-d);font-size:clamp(1.7rem,3.4vw,2.5rem);text-align:center}
+.t-sub{font-family:var(--serif);font-style:italic;font-weight:400;letter-spacing:.05em;color:var(--slate-d);font-size:clamp(1.05rem,1.8vw,1.3rem);text-align:center;margin-top:10px}
+.t-sub b{font-weight:600}
+.rule{width:190px;height:1px;background:var(--ink);margin:18px auto 26px;opacity:.6}
+.rule.short{width:32px;height:3px;opacity:1}
+.center-copy{font-size:1.05rem;max-width:640px;margin:0 auto;text-align:center;display:grid;gap:16px;color:#333}
+.on-dark{color:#fff}
+.on-dark .t-title,.on-dark .t-sub{color:#fff}
+
+/* top bar */
+.topbar{background:var(--slate);color:#fff;font-size:.8rem}
+.topbar .wrap{display:flex;align-items:center;justify-content:center;gap:16px;min-height:44px;flex-wrap:wrap;padding-top:6px;padding-bottom:6px;text-align:center}
+.topbar svg{width:18px;height:18px;flex-shrink:0}
+.pill{display:inline-flex;align-items:center;gap:12px;background:#fff;color:var(--slate-d);border-radius:20px;padding:3px 16px;font-family:var(--ui);font-size:.74rem;letter-spacing:.24em;text-decoration:none}
+.pill::after{content:"";width:22px;height:1px;background:currentColor;box-shadow:0 0 0 0 currentColor;position:relative}
+
+/* header */
+.site-header{background:#fff;position:sticky;top:0;z-index:40;box-shadow:0 1px 0 rgba(0,0,0,.06)}
+.site-header .wrap{display:flex;align-items:center;gap:20px;height:88px}
+.logo{display:block;text-decoration:none;flex-shrink:0}
+.logo-box{border:2px solid var(--slate-d);outline:1px solid var(--slate-d);outline-offset:3px;padding:6px 14px 5px;display:flex;flex-direction:column;align-items:center;background:#fff}
+.logo-box svg{width:62px;height:20px}
+.logo-box b{font-family:var(--ui);font-weight:600;font-size:1.05rem;letter-spacing:.06em;color:var(--slate-d);line-height:1.1}
+.logo-box span{font-family:var(--ui);font-weight:500;font-size:.56rem;letter-spacing:.34em;color:var(--slate-d);line-height:1.3}
+.main-nav{margin-left:auto;display:flex;align-items:center}
+.main-nav a{font-family:var(--ui);font-weight:600;font-size:.82rem;color:var(--navy);text-decoration:none;padding:4px 14px;border-left:1px solid #8C8C96}
+.main-nav a:first-child{border-left:0}
+.main-nav a:hover{color:var(--crimson)}
+.main-nav a[aria-current="page"]{color:var(--crimson)}
+.menu-btn{display:none;margin-left:auto;background:none;border:0;cursor:pointer;padding:10px}
+.menu-btn span{display:block;width:24px;height:2px;background:var(--ink);margin:5px 0}
+@media (max-width:900px){
+  .site-header .wrap{height:76px}
+  .menu-btn{display:block}
+  .main-nav{position:fixed;inset:76px 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;padding:8px 20px 20px;display:none;box-shadow:0 12px 24px rgba(0,0,0,.12)}
+  .main-nav.open{display:flex}
+  .main-nav a{border-left:0;border-bottom:1px solid #E3E5EA;padding:14px 4px;font-size:.95rem}
+}
+
+/* views */
+.view{display:none}
+.view.active{display:block}
+
+/* image placeholders: line drawings on blueprint, until client photos arrive */
+.ph{position:relative;overflow:hidden;background-color:var(--slate);
+  background-image:linear-gradient(rgba(255,255,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.07) 1px,transparent 1px);
+  background-size:22px 22px}
+.ph.dark{background-color:#33415C}
+.ph.light{background-color:#DDE5EE;background-image:linear-gradient(rgba(63,80,106,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(63,80,106,.08) 1px,transparent 1px)}
+.ph.bw{background-color:#C9CCD1;background-image:linear-gradient(rgba(0,0,0,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,.06) 1px,transparent 1px)}
+.ph svg{width:100%;height:100%;position:absolute;inset:0}
+.ph.photo{background-size:cover;background-position:center;background-repeat:no-repeat}
+.hero > .ph svg,.band > .ph svg,.say > .ph svg,.story > .ph svg,.formside > .ph svg,.ba-stage > .ph svg{opacity:.28}
+.ph-tag{position:absolute;right:8px;bottom:8px;z-index:2;font-family:var(--ui);font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;background:rgba(255,255,255,.9);color:var(--slate-d);padding:3px 8px;border:1px dashed var(--slate-d)}
+
+/* hero */
+.hero{position:relative;min-height:520px;display:grid;place-items:center;color:#fff;text-align:center}
+.hero .ph{position:absolute;inset:0}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,32,70,.45),rgba(20,32,70,.68))}
+.hero .inner{position:relative;z-index:2;padding:80px 20px 112px;max-width:820px}
+.hero h1{font-size:clamp(2.2rem,5.6vw,4rem);text-transform:uppercase;letter-spacing:.06em}
+.hero .t-sub{color:#fff;margin-top:14px}
+.hero .rule{background:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-family:var(--ui);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;text-decoration:none;padding:13px 26px;cursor:pointer;border:0;transition:background .2s ease,color .2s ease}
+.btn-frame{background:var(--navy);color:#fff;outline:1px solid #fff;outline-offset:-5px;padding:15px 30px}
+.btn-frame:hover{background:var(--slate-d)}
+.btn-line{border:1px solid #fff;color:#fff;background:transparent}
+.btn-line:hover{background:#fff;color:var(--navy)}
+.btn-dark{background:var(--char);color:#fff}
+.btn-dark:hover{background:var(--navy)}
+.btn-row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:30px}
+
+/* sections */
+.sec{padding:90px 0}
+.sec.tight{padding:64px 0}
+@media (max-width:700px){.sec{padding:60px 0}}
+
+/* two cards over imagery with navy block on right (signature band) */
+.band{position:relative;padding:90px 0 110px;overflow:hidden}
+.band > .ph{position:absolute;inset:0}
+.band::before{content:"";position:absolute;top:0;bottom:0;right:0;width:32%;background:var(--navy);z-index:1;opacity:.92}
+.band::after{content:"";position:absolute;inset:0;background:rgba(86,105,142,.55);z-index:1}
+.band .wrap{position:relative;z-index:2}
+.band h2{color:#fff;text-align:center;font-size:clamp(1.8rem,3.2vw,2.4rem)}
+.band .t-sub{color:#fff}
+.glass-cards{display:grid;grid-template-columns:1fr 1fr;gap:70px;max-width:900px;margin:56px auto 0}
+.glass{background:rgba(255,255,255,.62);color:var(--navy)}
+.glass h3{background:rgba(86,105,142,.85);color:#fff;font-weight:400;text-transform:uppercase;letter-spacing:.04em;text-align:center;padding:22px 16px 18px;font-size:1.25rem}
+.glass p{padding:26px 30px 34px;font-weight:400;font-size:1rem;line-height:1.75;text-align:left;color:#1B2654}
+@media (max-width:760px){.glass-cards{grid-template-columns:1fr;gap:28px}.band::before{width:18%}}
+
+/* checkerboard process */
+.checker{display:grid;grid-template-columns:repeat(4,1fr)}
+.checker .cell{min-height:330px}
+.checker .txt{background:var(--slate);color:#fff;padding:44px 34px;text-align:center;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.checker .txt:nth-child(4n+4){background:#5C6E94}
+.checker h3{font-weight:400;font-size:1.2rem}
+.checker p{font-size:.95rem;line-height:1.85;color:#EEF1F6}
+.checker .step-no{font-family:var(--serif);font-style:italic;letter-spacing:.12em;font-size:.85rem;color:var(--sky)}
+@media (max-width:900px){.checker{grid-template-columns:1fr 1fr}.checker .cell{min-height:260px}
+  .checker .img:nth-child(4n+3){order:0}}
+@media (max-width:560px){.checker{grid-template-columns:1fr}.checker .img{min-height:200px}}
+
+/* story card over imagery */
+.story{position:relative;padding:60px 0 80px}
+.story > .ph{position:absolute;left:0;top:0;bottom:30px;width:68%}
+.story::after{content:"";position:absolute;right:0;top:0;bottom:30px;width:32%;background:var(--slate)}
+.story-card{position:relative;z-index:2;background:#fff;max-width:560px;margin:0 auto;padding:46px 40px;box-shadow:0 20px 40px -20px rgba(0,0,0,.4)}
+.story-card h2{color:var(--slate-d);text-align:center;font-size:1.9rem}
+.story-card .t-sub{font-size:.95rem;letter-spacing:.06em}
+.story-card .body{display:grid;gap:14px;margin-top:22px;font-size:.95rem;color:#333}
+@media (max-width:700px){.story > .ph{width:100%}.story::after{display:none}.story-card{margin:0 16px;padding:32px 22px}}
+
+/* split commitment panel */
+.split{display:grid;grid-template-columns:1fr 1fr;min-height:420px}
+.split .left{background:var(--sky)}
+.split .right{background:var(--slate);color:#fff;display:flex;flex-direction:column;justify-content:center;padding:60px 56px;text-align:center}
+.split h2{font-size:clamp(1.7rem,3vw,2.3rem)}
+.split .t-sub{color:#fff;letter-spacing:.1em}
+.split p.copy{margin-top:30px;font-weight:400;font-size:1.02rem;line-height:1.8;text-align:left;max-width:520px;align-self:center}
+@media (max-width:760px){.split{grid-template-columns:1fr}.split .left{min-height:200px}.split .right{padding:48px 24px}}
+
+/* side anchor nav (about) */
+.about-top{position:relative}
+.side-nav{position:absolute;right:20px;top:90px;display:grid;gap:4px;text-align:right}
+.side-nav button{background:none;border:0;cursor:pointer;font:inherit;font-size:.86rem;color:var(--navy);display:flex;align-items:center;gap:8px;justify-content:flex-end}
+.side-nav button::after{content:"";width:9px;height:9px;border:2px solid var(--navy);border-radius:50%}
+.side-nav button:hover::after{background:var(--navy)}
+@media (max-width:1000px){.side-nav{position:static;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 18px;margin-top:24px}}
+
+.big-logo{display:flex;justify-content:center;margin-bottom:22px}
+.big-logo .logo-box{padding:14px 34px 10px;outline-offset:5px}
+.big-logo .logo-box svg{width:120px;height:38px}
+.big-logo .logo-box b{font-size:2.1rem}
+.big-logo .logo-box span{font-size:1rem}
+
+/* services */
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;margin-top:40px}
+@media (max-width:960px){.svc-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.svc-grid{grid-template-columns:1fr}}
+.svc-card{background:#fff;border:1px solid #DDE1E7;display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:box-shadow .2s ease;cursor:pointer;text-align:left;font:inherit;padding:0}
+.svc-card:hover{box-shadow:0 18px 30px -18px rgba(31,47,107,.45)}
+.svc-card .ph{aspect-ratio:4/3}
+.svc-card .body{padding:22px 20px 26px;display:grid;gap:10px;text-align:center}
+.svc-card h3{font-weight:400;text-transform:uppercase;letter-spacing:.06em;font-size:1.05rem;color:var(--navy)}
+.svc-card p{font-size:.95rem;color:#444}
+.svc-card .more{font-family:var(--ui);font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--slate-d);margin-top:4px}
+
+.svc-detail{display:grid;grid-template-columns:1fr 1fr;align-items:stretch;scroll-margin-top:100px}
+.svc-detail .ph{min-height:380px}
+.svc-detail .txt{padding:60px 56px;display:flex;flex-direction:column;justify-content:center;gap:16px}
+.svc-detail:nth-of-type(odd) .txt{background:#F4F6F9}
+.svc-detail:nth-of-type(even) .ph{order:2}
+.svc-detail h2{color:var(--slate-d);font-size:1.9rem}
+.svc-detail .t-sub{text-align:left;margin-top:0;font-size:1rem}
+.svc-detail p{color:#444;font-size:1rem}
+.ticks{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr 1fr;gap:8px 18px;font-size:.95rem}
+.ticks li{padding-left:18px;position:relative}
+.ticks li::before{content:"";position:absolute;left:0;top:.6em;width:7px;height:7px;background:var(--slate)}
+@media (max-width:820px){.svc-detail{grid-template-columns:1fr}.svc-detail:nth-of-type(even) .ph{order:0}.svc-detail .ph{min-height:240px}.svc-detail .txt{padding:40px 22px}}
+
+.steps4{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:46px;border-top:1px solid rgba(255,255,255,.35)}
+.steps4 > div{padding:28px 22px;border-right:1px solid rgba(255,255,255,.2);text-align:center}
+.steps4 > div:last-child{border-right:0}
+.steps4 .n{font-family:var(--serif);font-size:2.4rem;color:var(--sky);line-height:1}
+.steps4 h3{font-weight:400;text-transform:uppercase;letter-spacing:.1em;font-size:1rem;margin:10px 0 8px}
+.steps4 p{font-size:.95rem;color:#E4E9F1}
+@media (max-width:760px){.steps4{grid-template-columns:1fr 1fr}.steps4 > div:nth-child(2){border-right:0}}
+
+/* before & after carousel */
+.ba-stage{position:relative;max-width:720px;margin:0 auto;padding:40px}
+.ba-stage > .ph{position:absolute;inset:0}
+.ba-frame{position:relative;z-index:2;background:rgba(255,255,255,.88);padding:18px 18px 26px}
+.ba-frame h3{text-align:center;color:var(--navy);text-transform:uppercase;letter-spacing:.04em;font-size:1.5rem;margin:4px 0 14px}
+.ba-panel{background:var(--slate);padding:18px 26px 26px;display:grid;gap:16px}
+.ba-panel .mini{display:flex;flex-direction:column;align-items:center;color:#fff;font-family:var(--ui);font-size:.55rem;letter-spacing:.3em}
+.ba-panel .mini b{font-size:.9rem;letter-spacing:.06em;font-weight:600}
+.ba-img{position:relative;border:4px solid #fff;aspect-ratio:16/8}
+.ba-img .ph{position:absolute;inset:0}
+.ba-label{position:absolute;left:50%;bottom:-12px;transform:translateX(-50%);background:#fff;color:var(--ink);font-family:var(--ui);font-size:.65rem;font-weight:600;letter-spacing:.12em;padding:3px 16px;z-index:3}
+.ba-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;background:none;border:0;cursor:pointer;color:#fff;font-size:2.4rem;line-height:1;padding:10px;text-shadow:0 2px 8px rgba(0,0,0,.4)}
+.ba-arrow.prev{left:4px}.ba-arrow.next{right:4px}
+.ba-dots{display:flex;justify-content:center;gap:8px;margin-top:14px}
+.ba-dots button{width:9px;height:9px;border-radius:50%;border:1px solid var(--slate-d);background:transparent;padding:0;cursor:pointer}
+.ba-dots button[aria-current="true"]{background:var(--slate-d)}
+.ba-cap{text-align:center;font-family:var(--serif);font-style:italic;color:var(--slate-d);margin-top:10px}
+@media (max-width:560px){.ba-stage{padding:16px}.ba-panel{padding:14px 12px 20px}}
+
+/* circle gallery */
+.circles{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;max-width:900px;margin:40px auto 0}
+.circle{background:none;border:0;cursor:pointer;display:grid;justify-items:center;gap:12px;font:inherit;color:var(--ink)}
+.circle .ph{width:190px;height:190px;border-radius:50%;max-width:100%;filter:grayscale(1)}
+.circle span{font-family:var(--serif);text-transform:uppercase;letter-spacing:.04em;font-size:1.05rem}
+.circle[aria-pressed="true"] .ph{outline:3px solid var(--navy);outline-offset:5px;filter:none}
+.circle:hover .ph{filter:none}
+@media (max-width:760px){.circles{grid-template-columns:1fr 1fr}.circle .ph{width:150px;height:150px}}
+.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:46px}
+.work-grid .item{position:relative;aspect-ratio:4/3}
+.work-grid .item .ph{position:absolute;inset:0}
+.work-grid .item b{position:absolute;left:0;right:0;bottom:0;z-index:2;background:linear-gradient(transparent,rgba(31,47,107,.85));color:#fff;font-family:var(--serif);font-weight:400;padding:28px 14px 12px}
+@media (max-width:760px){.work-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.work-grid{grid-template-columns:1fr}}
+
+/* contact page */
+.contact-top{display:grid;grid-template-columns:1fr 1fr}
+.contact-top .info{padding:70px 40px 60px max(20px,calc((100vw - 1100px)/2 + 20px));display:grid;gap:4px;align-content:start;font-size:.95rem}
+.contact-top h1{font-style:italic;color:var(--navy);font-size:2.3rem;margin-bottom:22px}
+.contact-top .info b{display:block;margin-top:14px}
+.contact-top .formside{background:var(--sky);position:relative;padding:60px 50px}
+.contact-top .formside > .ph{position:absolute;inset:0 18% 0 0;opacity:.55}
+.contact-top .formside form{position:relative;z-index:2;max-width:440px}
+@media (max-width:820px){.contact-top{grid-template-columns:1fr}.contact-top .info{padding:50px 20px 30px}.contact-top .formside{padding:40px 20px}}
+.area-box{max-width:500px;margin:0 auto;background:#DCDCDC;border:3px solid #EBEBEB;outline:1px solid #D0D0D0;text-align:center;padding:34px 20px;color:#fff;font-family:var(--ui);letter-spacing:.14em}
+.area-box b{display:block;font-size:1.5rem;font-weight:500;letter-spacing:.18em}
+.area-box span{display:block;font-size:1.05rem;font-weight:300}
+
+/* forms */
+.form{display:grid;gap:16px}
+.form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){.form .row{grid-template-columns:1fr}}
+.form label{display:block;font-size:.82rem;margin-bottom:5px}
+.form input,.form select,.form textarea{width:100%;font:inherit;font-size:.92rem;padding:9px 10px;border:1px solid #C9D2DD;background:#fff;color:var(--ink);border-radius:0}
+.form textarea{min-height:90px;resize:vertical}
+.form input:focus,.form select:focus,.form textarea:focus{outline:2px solid var(--navy);outline-offset:0}
+.form .err{display:none;color:#B42318;font-size:.78rem;font-weight:600;margin-top:4px}
+.form .invalid .err{display:block}
+.form .invalid input,.form .invalid select{border-color:#B42318}
+.form .submit{width:100%;background:var(--char);color:#fff;border:0;padding:12px;font-family:var(--ui);font-size:.85rem;cursor:pointer}
+.form .submit:hover{background:var(--navy)}
+.form.underline label{color:#fff}
+.form.underline input,.form.underline select,.form.underline textarea{background:transparent;border:0;border-bottom:1px solid rgba(255,255,255,.55);color:#fff;padding:8px 2px}
+.form.underline select option{color:var(--ink)}
+.form.underline input:focus,.form.underline select:focus,.form.underline textarea:focus{outline:none;border-bottom-color:#fff}
+.form.underline .submit{background:#fff;color:var(--ink)}
+.form.underline .submit:hover{background:var(--sky)}
+.form.underline .err{color:#FFB4A9}
+.hp{position:absolute;left:-9999px}
+.status{display:none;padding:12px 14px;font-size:.86rem;font-weight:600}
+.status.show{display:block}
+.status.warn{background:#FFF6DD;color:#6B4A00;border:1px solid #F3D27A}
+.status.ok{background:#E8F5EC;color:#14532D;border:1px solid #A7D7B5}
+.status.bad{background:#FDECEA;color:#8A1C12;border:1px solid #F3B4AC}
+
+/* testimonials band */
+.say{position:relative;padding:90px 0 100px;overflow:hidden}
+.say > .ph{position:absolute;inset:0}
+.say::before{content:"";position:absolute;top:0;bottom:0;right:0;width:32%;background:var(--navy);z-index:1}
+.say::after{content:"";position:absolute;inset:0;background:rgba(30,45,90,.55);z-index:1}
+.say .wrap{position:relative;z-index:2;text-align:center}
+.say h2{color:#fff;font-family:var(--body);font-weight:700;letter-spacing:.2em;font-size:clamp(1.6rem,3.6vw,2.6rem)}
+.say .btn-frame{margin-top:36px}
+.say-card{max-width:520px;margin:48px auto 0;background:rgba(15,80,140,.78);color:#fff;padding:36px 30px 30px}
+.say-card .stars{font-size:1.4rem;letter-spacing:4px;color:#fff;opacity:.5}
+.say-card h3{font-family:var(--body);font-weight:400;letter-spacing:.12em;text-transform:uppercase;font-size:1rem;margin-top:10px}
+.say-card .loc{font-family:var(--serif);font-style:italic;letter-spacing:.1em;margin-top:2px}
+.say-card p{font-style:italic;font-size:.88rem;margin-top:16px}
+.say-card .q{font-family:var(--serif);font-size:3rem;line-height:1;margin-top:14px}
+
+/* footer contact */
+.foot{background:var(--char);color:#fff}
+.foot .wrap{display:grid;grid-template-columns:1fr 1fr;gap:60px;padding-top:70px;padding-bottom:60px}
+.foot h2{font-weight:400;font-size:clamp(1.8rem,3vw,2.4rem);line-height:1.35}
+.foot .info{display:grid;gap:4px;font-size:.95rem;margin-top:26px}
+.foot .info b{display:block;margin-top:14px}
+.foot .info a{text-decoration:none}
+.foot .info a:hover{text-decoration:underline}
+@media (max-width:820px){.foot .wrap{grid-template-columns:1fr;gap:40px;padding-top:50px}}
+.legal{background:#1D1E28;color:#9A9CAB;font-size:.78rem}
+.legal .wrap{display:flex;flex-wrap:wrap;gap:10px;justify-content:space-between;padding-top:16px;padding-bottom:90px}
+.legal nav{display:flex;gap:16px;flex-wrap:wrap}
+.legal a{text-decoration:none}.legal a:hover{color:#fff}
+.preview-note{background:#FFF6DD;color:#6B4A00;font-size:.8rem;text-align:center;padding:6px 12px}
+.preview-note button{background:none;border:0;font:inherit;text-decoration:underline;cursor:pointer;color:inherit}
+
+/* mobile call bar */
+.mbar{position:fixed;left:0;right:0;bottom:0;z-index:50;display:none;grid-template-columns:1fr 1fr;background:var(--navy)}
+.mbar a{color:#fff;text-align:center;padding:14px 8px calc(14px + env(safe-area-inset-bottom));font-family:var(--ui);font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;text-decoration:none}
+.mbar a+a{background:var(--slate)}
+@media (max-width:600px){.topbar span{display:none}.topbar .wrap{min-height:40px}}
+@media (max-width:760px){.mbar{display:grid}.chat-fab{bottom:72px!important}}
+
+/* chat assistant */
+.chat-fab{position:fixed;right:18px;bottom:18px;z-index:60;display:flex;align-items:center;gap:10px;background:var(--navy);color:#fff;border:0;outline:1px solid rgba(255,255,255,.7);outline-offset:-5px;padding:15px 22px;font-family:var(--ui);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;box-shadow:0 10px 26px -8px rgba(0,0,0,.5)}
+.chat-fab svg{width:18px;height:18px}
+.chat{position:fixed;right:18px;bottom:18px;z-index:70;width:min(380px,calc(100vw - 24px));height:min(580px,calc(100vh - 36px));background:#fff;box-shadow:0 30px 70px -20px rgba(0,0,0,.5);display:none;flex-direction:column;overflow:hidden;border:1px solid #D5DAE2}
+.chat.open{display:flex}
+@media (max-width:520px){.chat{right:12px;bottom:12px;height:calc(100% - 24px)}}
+.chat-head{background:var(--slate);color:#fff;padding:14px 16px;display:flex;align-items:center;gap:12px}
+.chat-head b{font-family:var(--serif);font-weight:600;font-size:1.05rem;display:block;line-height:1.2}
+.chat-head small{font-family:var(--serif);font-style:italic;color:#E4E9F1;font-size:.82rem}
+.chat-head button{margin-left:auto;background:none;border:0;color:#fff;font-size:1.6rem;line-height:1;cursor:pointer;padding:2px 8px}
+.chat-log{flex:1;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px;background:#F2F4F7}
+.msg{max-width:86%;padding:10px 14px;font-size:.88rem;line-height:1.5;white-space:pre-line}
+.msg.bot{background:#fff;border:1px solid #DDE1E7;align-self:flex-start}
+.msg.me{background:var(--navy);color:#fff;align-self:flex-end}
+.quick{display:flex;flex-wrap:wrap;gap:6px;align-self:flex-start}
+.quick button{background:#fff;border:1px solid var(--navy);color:var(--navy);padding:7px 12px;font-family:var(--ui);font-size:.75rem;cursor:pointer}
+.quick button:hover,.quick button.primary{background:var(--navy);color:#fff}
+.chat-input{display:flex;gap:8px;padding:12px;border-top:1px solid #DDE1E7}
+.chat-input input{flex:1;min-width:0;font:inherit;font-size:.9rem;border:1px solid #C9D2DD;padding:9px 12px}
+.chat-input button{background:var(--char);color:#fff;border:0;padding:0 16px;font-family:var(--ui);font-size:.78rem;cursor:pointer}
+
+
+
+
+/* WhatsApp + assistant extras */
+.wa-fab{position:fixed;right:18px;bottom:80px;z-index:60;display:flex;align-items:center;gap:8px;background:#25D366;color:#fff;text-decoration:none;border-radius:30px;padding:11px 16px 11px 12px;font-family:var(--ui);font-size:.78rem;font-weight:500;box-shadow:0 10px 24px -8px rgba(0,0,0,.45);transition:transform .2s ease}
+.wa-fab:hover{transform:translateY(-2px)}
+.wa-fab svg{width:24px;height:24px}
+.pill-wa{background:#25D366;color:#fff;margin-left:6px;gap:6px}.pill-wa::after{display:none}.pill-wa svg{width:14px;height:14px}
+.mbar{grid-template-columns:1fr 1.2fr 1fr!important}
+.mbar .mb-wa{background:#1FAE55!important;display:flex;align-items:center;justify-content:center;gap:6px}.mbar .mb-wa svg{width:18px;height:18px}
+@media (max-width:760px){.wa-fab{display:none}}
+.msg a{color:inherit;text-decoration:underline}
+.msg.bot.typing{padding:12px 14px}
+.dots{display:inline-flex;gap:4px}.dots i{width:6px;height:6px;border-radius:50%;background:var(--slate);opacity:.35;animation:dot 1s infinite}
+.dots i:nth-child(2){animation-delay:.15s}.dots i:nth-child(3){animation-delay:.3s}
+@keyframes dot{0%,80%,100%{opacity:.25;transform:translateY(0)}40%{opacity:1;transform:translateY(-3px)}}
+.quick a{display:inline-block;background:#fff;border:1px solid var(--navy);color:var(--navy);padding:7px 12px;font-family:var(--ui);font-size:.75rem;text-decoration:none}
+.quick a.primary,.quick a:hover{background:var(--navy);color:#fff}
+.quick .wa{border-color:#1FAE55!important}.quick a.wa{background:#25D366;color:#fff;border-color:#25D366}.quick button.wa{color:#1FAE55}
+.status a{color:inherit;font-weight:700}
+
+/* ===== Brand logo ===== */
+.nl-mark{display:block;color:#B08D52;flex-shrink:0}
+.lockup{display:flex;align-items:center;gap:14px}
+.lockup .nl-mark{width:56px;height:48px}
+.lk-text{display:flex;flex-direction:column;align-items:stretch}
+.lk-text b{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:1.5rem;letter-spacing:.18em;color:#16214A;line-height:1;white-space:nowrap}
+.lk-text i{display:block;height:1px;background:rgba(176,141,82,.65);margin:6px 0 5px}
+.lk-text span{font-family:Montserrat,var(--ui);font-weight:400;font-size:.56rem;letter-spacing:.56em;color:#16214A;white-space:nowrap}
+@media (max-width:420px){.lockup .nl-mark{width:44px;height:38px}.lk-text b{font-size:1.2rem}.lk-text span{font-size:.47rem}}
+.stack-logo{display:flex;flex-direction:column;align-items:center}
+.stack-logo .nl-mark{width:120px;height:102px}
+.stack-logo b{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:2.4rem;letter-spacing:.2em;color:#16214A;margin:14px 0 0 .2em;line-height:1}
+.st-rule{display:flex;align-items:center;gap:10px;margin:12px 0 10px}.st-rule i{width:70px;height:1px;background:rgba(176,141,82,.6)}.st-rule em{width:6px;height:6px;transform:rotate(45deg);background:#B08D52}
+.st-sub{font-family:Montserrat,var(--ui);font-size:.78rem;letter-spacing:.6em;color:#16214A;margin-left:.6em}
+.foot-logo{display:inline-block;margin-bottom:28px;text-decoration:none}
+.foot-logo .nl-mark{color:#C9A96E}.foot-logo .lk-text b,.foot-logo .lk-text span{color:#F4F1EA}.foot-logo .lk-text i{background:rgba(201,169,110,.55)}
+.chat-mark{width:34px;height:29px;color:#E2CC9C;flex-shrink:0}
+
+/* ===== Intro ===== */
+#intro{position:fixed;inset:0;z-index:300;display:grid;place-items:center;overflow:hidden}
+#intro .i-steps{position:absolute;inset:0;display:grid;grid-template-columns:repeat(5,1fr)}
+#intro .i-steps span{background:#0F1835;margin-right:-1px}
+#intro .i-glow{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 42%,rgba(44,66,128,.85) 0%,rgba(17,26,56,0) 62%)}
+#intro .i-inner{position:relative;display:flex;flex-direction:column;align-items:center;text-align:center;padding:20px}
+#intro .i-mark{width:min(190px,36vw);height:auto;overflow:visible}
+#intro .i-mark path{fill:none;stroke:#C9A96E;stroke-dasharray:1;stroke-dashoffset:1}
+#intro .i-word{font-family:"Cormorant Garamond",Georgia,serif;font-weight:600;font-size:clamp(2.2rem,7vw,4.6rem);letter-spacing:.2em;color:#F4F1EA;margin:26px 0 0 .2em;line-height:1;white-space:nowrap}
+#intro .i-word span{display:inline-block;opacity:0}
+#intro .i-rule{display:flex;align-items:center;gap:14px;margin:20px 0 16px}
+#intro .i-rule i{width:min(150px,22vw);height:1px;background:rgba(201,169,110,.6);transform:scaleX(0)}
+#intro .i-rule i:first-child{transform-origin:right}#intro .i-rule i:last-child{transform-origin:left}
+#intro .i-rule b{width:8px;height:8px;background:#C9A96E;transform:rotate(45deg) scale(0)}
+#intro .i-sub{transform-origin:50% 50%;font-family:Montserrat,var(--ui);font-size:clamp(.7rem,1.6vw,1rem);letter-spacing:.62em;color:#C9A96E;margin-left:.62em;opacity:0}
+#intro .i-slogan{font-family:"Cormorant Garamond",Georgia,serif;font-style:italic;font-weight:500;font-size:clamp(1.05rem,2.4vw,1.5rem);letter-spacing:.06em;color:#C9D4E8;margin-top:28px;opacity:0}
+
+#intro .i-grid{position:absolute;inset:0;opacity:0;background-image:linear-gradient(rgba(159,195,255,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(159,195,255,.10) 1px,transparent 1px);background-size:36px 36px;background-position:center;-webkit-mask-image:radial-gradient(ellipse at 50% 42%,#000 10%,transparent 60%);mask-image:radial-gradient(ellipse at 50% 42%,#000 10%,transparent 60%)}
+#intro .i-guides{position:absolute;inset:0;pointer-events:none}
+#intro .i-guides i{position:absolute;background:linear-gradient(90deg,transparent,rgba(201,169,110,.55),transparent)}
+#intro .i-guides .gh{left:0;right:0;top:var(--gy,38%);height:1px;transform:scaleX(0)}
+#intro .i-guides .gv{top:0;bottom:0;left:50%;width:1px;background:linear-gradient(180deg,transparent,rgba(201,169,110,.55),transparent);transform:scaleY(0)}
+#intro .i-pen{fill:#FFF4D8;opacity:0}
+#intro .i-sparks circle{fill:#F6DFA6}
+#intro .i-word span{transform-origin:50% 100%}
+#intro .i-inner{overflow:hidden}
+#intro .i-shine{position:absolute;top:-10%;bottom:-10%;left:-45%;width:38%;background:linear-gradient(100deg,rgba(255,240,205,0) 0%,rgba(255,240,205,.22) 50%,rgba(255,240,205,0) 100%);transform:skewX(-18deg) translateX(0);opacity:0;pointer-events:none}
+
+
+#intro .i-markwrap{position:relative;width:min(190px,36vw)}
+#intro .i-markwrap .i-mark{width:100%;display:block}
+#intro .i-fx{position:absolute;left:-40%;top:-40%;width:180%;height:180%;pointer-events:none}
+#intro .i-halo{position:absolute;left:50%;top:55%;width:260%;aspect-ratio:1;transform:translate(-50%,-50%) scale(.6);border-radius:50%;background:radial-gradient(closest-side,rgba(230,200,140,.42),rgba(230,200,140,.12) 45%,rgba(230,200,140,0));opacity:0;pointer-events:none;will-change:transform,opacity}
+#intro .i-steps span,#intro .i-inner,#intro .i-grid,#intro .i-guides i,#intro .i-word span,#intro .i-shine{will-change:transform,opacity}
+
+#intro .i-skip{position:absolute;right:22px;bottom:22px;background:none;border:1px solid rgba(201,169,110,.5);color:#C9A96E;font-family:Montserrat,var(--ui);font-size:.66rem;letter-spacing:.3em;padding:9px 16px;cursor:pointer}
+#intro .i-skip:hover{background:rgba(201,169,110,.12)}
+html.intro-on,html.intro-on body{overflow:hidden}
+#intro.nogsap .i-mark path{animation:iDraw 1s ease forwards}
+#intro.nogsap .i-word span,#intro.nogsap .i-sub,#intro.nogsap .i-slogan{animation:iFade .8s ease 1s forwards}
+@keyframes iDraw{to{stroke-dashoffset:0}}@keyframes iFade{to{opacity:1}}
+
+/* ===== Motion & 3D layer ===== */
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-smooth [data-lenis-prevent]{overscroll-behavior:contain}
+.progress{position:fixed;top:0;left:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--sky),#fff,var(--crimson));z-index:100;pointer-events:none}
+.hero{overflow:hidden;perspective:1200px}
+.hero > .ph{inset:-8% -4%;animation:kb 24s ease-in-out infinite alternate;will-change:transform}
+@keyframes kb{from{transform:scale(1.02)}to{transform:scale(1.12) translate(-1.5%,-1%)}}
+.hero .inner{transform-style:preserve-3d;will-change:transform}
+.split-word{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.04em}
+.char{display:inline-block;will-change:transform;transform-origin:50% 100%}
+.scroll-cue{position:absolute;left:50%;bottom:20px;z-index:3;transform:translateX(-50%);color:#fff;font-family:var(--ui);font-size:.6rem;letter-spacing:.32em;display:flex;flex-direction:column;align-items:center;gap:8px;opacity:.85}
+.scroll-cue i{width:1px;height:36px;background:linear-gradient(#fff,transparent);animation:cue 1.8s ease-in-out infinite;transform-origin:top}
+@keyframes cue{0%{transform:scaleY(0)}50%{transform:scaleY(1)}100%{transform:scaleY(0);transform-origin:bottom}}
+.svc-card{position:relative;overflow:hidden}
+.svc-card .ph{transition:transform .7s cubic-bezier(.2,.7,.2,1)}
+.svc-card:hover .ph{transform:scale(1.07)}
+.glass{position:relative}
+.tilt{transform-style:preserve-3d;transition:transform .2s ease-out,box-shadow .3s ease;will-change:transform}
+.tilt:hover{box-shadow:0 30px 50px -24px rgba(15,25,60,.55)}
+.glare{position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at var(--gx,50%) var(--gy,50%),rgba(255,255,255,.38),transparent 55%);opacity:0;transition:opacity .3s ease;z-index:4}
+.tilt:hover .glare{opacity:1}
+.btn{position:relative;overflow:hidden}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.28) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s ease}
+.btn:hover::after{transform:translateX(120%)}
+
+.build3d{position:relative;background:radial-gradient(ellipse at 68% 45%,#2C417C 0%,#16224A 55%,#0D1532 100%);color:#fff;overflow:hidden}
+.build3d::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(159,195,255,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(159,195,255,.07) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:radial-gradient(ellipse at 62% 50%,#000 25%,transparent 78%);mask-image:radial-gradient(ellipse at 62% 50%,#000 25%,transparent 78%);pointer-events:none}
+.stage-wrap{position:relative;height:calc(100vh - 88px);min-height:560px;max-height:960px;display:grid;grid-template-columns:.8fr 1.2fr;align-items:center;gap:20px;max-width:1240px;margin:0 auto;padding:0 20px}
+@media (min-width:861px){.stage-wrap{position:static}#houseCanvasWrap{position:absolute;inset:0;z-index:1}}
+#houseCanvasWrap{position:relative;height:100%;min-height:420px}
+#houseCanvasWrap canvas{position:absolute;inset:0;width:100%!important;height:100%!important;display:block}
+.b3-copy{position:relative;z-index:2;display:grid;gap:14px}
+.b3-copy .eyebrow{font-family:var(--ui);font-size:.68rem;letter-spacing:.32em;color:var(--sky)}
+.b3-copy h2{font-size:clamp(2rem,3.8vw,3.1rem);text-transform:uppercase;letter-spacing:.04em;line-height:1.08}
+.b3-copy .t-sub{text-align:left;color:var(--sky);margin:0}
+.stages{list-style:none;margin:16px 0 0;padding:0;display:grid;border-left:1px solid rgba(255,255,255,.18)}
+.stages li{padding:14px 0 14px 22px;position:relative;opacity:.4;transition:opacity .45s ease}
+.stages li::before{content:"";position:absolute;left:-1px;top:0;bottom:0;width:2px;background:var(--sky);transform:scaleY(0);transform-origin:top;transition:transform .55s ease}
+.stages li.on{opacity:1}.stages li.on::before{transform:scaleY(1)}
+.stages .k{font-family:var(--ui);font-size:.64rem;letter-spacing:.3em;color:var(--sky)}
+.stages b{font-family:var(--serif);font-size:1.3rem;font-weight:600;display:block;margin-top:2px}
+.stages p{font-size:.95rem;color:#C9D4E8;margin-top:4px;max-width:36ch}
+
+.b3-block{position:absolute;right:28px;top:28px;z-index:3;width:270px;border:1px solid rgba(159,195,255,.55);outline:1px solid rgba(159,195,255,.18);outline-offset:4px;background:rgba(12,20,48,.55);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);font-family:var(--ui);color:var(--sky)}
+.b3-block .r1{display:flex;justify-content:space-between;gap:10px;font-size:.55rem;letter-spacing:.2em;padding:8px 12px;border-bottom:1px solid rgba(159,195,255,.35)}
+.b3-block .r2{padding:10px 12px 8px;overflow:hidden;display:grid;gap:2px}
+.b3-block .r2 b{display:block;font-family:var(--serif);font-weight:700;font-size:2.3rem;color:#fff;letter-spacing:.14em;line-height:1.15}
+.b3-block .r2 span{font-family:var(--serif);font-style:italic;font-size:.9rem;color:#C9D4E8;letter-spacing:.04em}
+.b3-block .flip{animation:flipIn .65s cubic-bezier(.2,.8,.2,1)}
+@keyframes flipIn{from{transform:translateY(70%) rotateX(-60deg);opacity:0}to{transform:none;opacity:1}}
+.b3-block .r3{display:flex;align-items:center;gap:10px;padding:8px 12px 10px;font-size:.62rem;letter-spacing:.18em;border-top:1px solid rgba(159,195,255,.35);font-variant-numeric:tabular-nums}
+.b3-block .bar{flex:1;height:2px;background:rgba(159,195,255,.25);position:relative}
+.b3-block .bar i{position:absolute;left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--sky),#fff)}
+.stages li.cur b{color:#fff}.stages li.cur .k{color:#fff}
+@media (max-width:860px){.b3-block{top:12px;right:14px;width:178px;outline:none}.b3-block .r1 span:first-child{display:none}.b3-block .r2 b{font-size:1.45rem}.b3-block .r2 span{font-size:.75rem}}
+@media (prefers-reduced-motion:reduce){.b3-block .flip{animation:none}}
+
+.b3-meter{position:absolute;right:26px;bottom:24px;z-index:2;font-family:var(--ui);font-size:.68rem;letter-spacing:.22em;color:var(--sky);font-variant-numeric:tabular-nums}
+.b3-meter b{color:#fff;font-weight:500}
+@media (max-width:860px){
+  .stage-wrap{grid-template-columns:1fr;grid-template-rows:auto 1fr;align-items:start;gap:6px;height:calc(100vh - 76px);min-height:540px;max-height:none;padding:8px 20px 70px}
+  #houseCanvasWrap{order:-1;height:46vh;min-height:280px}
+  .b3-copy{gap:8px}.b3-copy .eyebrow,.b3-copy .t-sub{display:none}
+  .b3-copy h2{font-size:1.6rem}.b3-copy h2 br{display:none}
+  .stages{margin-top:6px}.stages li{padding:8px 0 8px 18px}.stages li:not(.cur) p{display:none}
+  .b3-meter{right:20px;top:14px;bottom:auto}}
+
+
+
+.svc-gridbg{position:absolute;inset:0;z-index:-2;pointer-events:none;background-image:linear-gradient(rgba(63,80,106,.09) 1px,transparent 1px),linear-gradient(90deg,rgba(63,80,106,.09) 1px,transparent 1px);background-size:44px 44px;-webkit-mask-image:radial-gradient(ellipse 70% 60% at 50% 60%,#000 20%,transparent 75%);mask-image:radial-gradient(ellipse 70% 60% at 50% 60%,#000 20%,transparent 75%)}
+.svc-aurora{position:absolute;z-index:-1;left:50%;top:58%;width:min(1200px,110vw);height:520px;margin:-260px 0 0 min(-600px,-55vw);pointer-events:none;border-radius:50%;
+  background:conic-gradient(from 0deg,rgba(180,200,220,.0),rgba(86,105,142,.55),rgba(180,200,220,.75),rgba(31,47,107,.38),rgba(194,39,75,.12),rgba(180,200,220,.7),rgba(180,200,220,0));
+  filter:blur(70px);opacity:.75;animation:aurora 28s linear infinite;will-change:transform}
+@keyframes aurora{from{transform:rotate(0deg) scale(1,.55)}to{transform:rotate(360deg) scale(1,.55)}}
+.svc-rays{position:absolute;inset:-20% -10%;z-index:0;pointer-events:none;mix-blend-mode:soft-light;
+  background:repeating-linear-gradient(105deg,rgba(255,255,255,0) 0 140px,rgba(255,255,255,.9) 190px,rgba(255,255,255,0) 250px,rgba(255,255,255,0) 420px);
+  -webkit-mask-image:radial-gradient(ellipse 60% 55% at 50% 55%,#000 30%,transparent 80%);mask-image:radial-gradient(ellipse 60% 55% at 50% 55%,#000 30%,transparent 80%);
+  animation:rays 14s linear infinite;will-change:background-position}
+@keyframes rays{from{background-position:0 0}to{background-position:420px 0}}
+.svc-glow .svc-card{background:#fff;border:1px solid rgba(255,255,255,.95);box-shadow:0 0 0 1px rgba(63,80,106,.06),0 24px 50px -26px rgba(31,47,107,.5),0 0 60px -20px rgba(140,174,210,.6)}
+.svc-glow .rule.short{background:var(--slate-d)}
+@media (prefers-reduced-motion:reduce){.svc-aurora,.svc-rays{animation:none}}
+
+
+.checker .img{position:relative}
+@media (max-width:560px){.checker .cell{order:var(--o)}}
+.step-badge{position:absolute;left:14px;top:14px;z-index:2;font-family:var(--serif);font-style:italic;font-size:.95rem;letter-spacing:.08em;color:#fff;background:rgba(31,47,107,.82);padding:4px 12px}
+.checker .txt .step-no{font-style:normal}
+
+/* soft ambient light behind the service cards */
+.svc-glow{position:relative;overflow:hidden;isolation:isolate}
+.svc-glow::before,.svc-glow::after{content:"";position:absolute;z-index:-1;border-radius:50%;pointer-events:none;filter:blur(70px);will-change:transform}
+.svc-glow::before{width:min(760px,80vw);height:520px;left:-10%;top:22%;background:radial-gradient(closest-side,rgba(86,105,142,.55),rgba(86,105,142,0));animation:glowA 19s ease-in-out infinite alternate}
+.svc-glow::after{width:min(820px,85vw);height:560px;right:-12%;top:30%;background:radial-gradient(closest-side,rgba(140,174,210,.85),rgba(180,200,220,0));animation:glowB 23s ease-in-out infinite alternate}
+@keyframes glowA{0%{transform:translate(0,0) scale(1)}50%{transform:translate(18vw,-40px) scale(1.12)}100%{transform:translate(32vw,30px) scale(.95)}}
+@keyframes glowB{0%{transform:translate(0,0) scale(1)}50%{transform:translate(-16vw,50px) scale(.92)}100%{transform:translate(-30vw,-20px) scale(1.1)}}
+.svc-glow .wrap{position:relative;z-index:1}
+.svc-glow .t-title{text-shadow:0 0 40px rgba(180,200,220,.6)}
+.glow-cursor{position:absolute;z-index:0;left:0;top:0;width:520px;height:520px;margin:-260px 0 0 -260px;border-radius:50%;pointer-events:none;background:radial-gradient(closest-side,rgba(130,165,205,.55),rgba(180,200,220,.22) 50%,rgba(180,200,220,0));opacity:0;transition:opacity .6s ease;will-change:transform}
+.svc-glow:hover .glow-cursor{opacity:1}
+.svc-glow .svc-card{box-shadow:0 1px 0 rgba(31,47,107,.04),0 18px 40px -28px rgba(31,47,107,.35)}
+@media (prefers-reduced-motion:reduce){.svc-glow::before,.svc-glow::after{animation:none}.glow-cursor{display:none}}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<div id="intro" role="presentation">
+  <div class="i-steps" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="i-glow" aria-hidden="true"></div>
+  <div class="i-grid" aria-hidden="true"></div>
+  <div class="i-guides" aria-hidden="true"><i class="gh"></i><i class="gv"></i></div>
+  <div class="i-inner" aria-hidden="true">
+    <div class="i-markwrap"><span class="i-halo"></span><svg class="i-mark" viewBox="0 0 200 170"><g class="i-lines"><path class="p-ground" pathLength="1" d="M20 160 H180" stroke-width="3.2"/><path class="p-house" pathLength="1" d="M34 160 V74 L100 18 L166 74 V160" stroke-width="3.2"/><path class="p-stairs" pathLength="1" d="M58 158.4 V136 H84 V112 H110 V88 H136 V66" stroke-width="7"/></g></svg><canvas class="i-fx"></canvas></div>
+    <div class="i-word">NEXT LEVEL</div>
+    <div class="i-rule"><i></i><b></b><i></i></div>
+    <div class="i-sub">IMPROVEMENT</div>
+    <div class="i-slogan">Taking Your Home to the Next Level</div>
+    <span class="i-shine"></span>
+  </div>
+  <button class="i-skip" type="button">SKIP</button>
+</div>
+<script>document.documentElement.classList.add("intro-on");window.__introRunning=true;</script>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="nl-mark" viewBox="0 0 200 170"><g fill="none" stroke="currentColor" stroke-linecap="butt" stroke-linejoin="miter"><path d="M34 160 V74 L100 18 L166 74 V160" stroke-width="3.2"/><path d="M58 158.4 V136 H84 V112 H110 V88 H136 V66" stroke-width="7"/><path d="M20 160 H180" stroke-width="3.2"/></g></symbol></svg>
+
+
+<div class="topbar">
+  <div class="wrap">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>
+    <span>Kitchens, Bathrooms, Flooring &amp; Painting. Call us to plan your project.</span>
+    <a class="pill" href="tel:+15716743082">CALL TODAY</a><a class="pill pill-wa" href="https://wa.me/15716743082" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.2.6 4.4 1.7 6.3L3.2 29l7.3-1.9c1.8 1 3.9 1.5 6 1.5 7 0 12.7-5.6 12.7-12.6S23 3 16 3zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.3 1.1 1.2-4.2-.3-.4a10.4 10.4 0 0 1-1.6-5.4C5.2 9.8 10 5.1 16 5.1s10.8 4.7 10.8 10.5S22 26.1 16 26.1zm5.9-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.8 5 .8.4 1.4.6 1.9.7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>WHATSAPP</a>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="#home" aria-label="Next Level Improvement, home">
+      <span class="lockup"><svg class="nl-mark" viewBox="0 0 200 170" aria-hidden="true"><use href="#nl-mark"/></svg><span class="lk-text"><b>NEXT LEVEL</b><i></i><span>IMPROVEMENT</span></span></span>
+    </a>
+    <nav class="main-nav" id="nav" aria-label="Main" data-lenis-prevent>
+      <a href="#home" data-nav="home">Home</a>
+      <a href="#about" data-nav="about">About</a>
+      <a href="#services" data-nav="services">Services</a>
+      <a href="#work" data-nav="work">Our Work</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- =================== HOME =================== -->
+<section class="view" data-view="home" aria-label="Home">
+  <div class="hero">
+    <div class="ph photo" style="background-image:url('img/hero.jpg')"></div>
+    <div class="inner">
+      <h1>Next Level Improvement</h1>
+      <p class="t-sub">Kitchens · Bathrooms · Flooring · Painting</p>
+      <div class="rule"></div>
+      <p style="font-size:1.05rem;max-width:560px;margin:0 auto">Home remodeling in Centreville, Virginia. We plan every project with you and finish it when you are happy with the result.</p>
+      <div class="btn-row">
+        <a class="btn btn-frame" href="#contact">Schedule a consultation</a>
+        <a class="btn btn-line" href="tel:+15716743082">(571) 674-3082</a>
+      </div>
+    </div>
+    <div class="scroll-cue" aria-hidden="true">SCROLL<i></i></div>
+  </div>
+
+  <section class="sec">
+    <div class="wrap">
+      <h2 class="t-title">Welcome to Next Level Improvement</h2>
+      <p class="t-sub">Remodeling <b>Kitchens, Bathrooms, Floors</b> &amp; <b>Paint</b></p>
+      <div class="rule"></div>
+      <div class="center-copy">
+        <p>At Next Level Improvement, your home and your satisfaction come first. We are a remodeling company focused on the rooms and finishes that change how a home feels every day: kitchens, bathrooms, flooring and painting.</p>
+        <p>Every project starts with a conversation about what you want. From there we plan the work, build it carefully, and walk the finished job with you. Our goal is simple: a result you are proud to show your friends.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec tight svc-glow" style="background:#EEF2F7">
+    <span class="svc-gridbg" aria-hidden="true"></span>
+    <span class="svc-aurora" aria-hidden="true"></span>
+    <span class="svc-rays" aria-hidden="true"></span>
+    <span class="glow-cursor" aria-hidden="true"></span>
+    <div class="wrap">
+      <h2 class="t-title">Our Services</h2>
+      <p class="t-sub">Four Services, One Standard of Care</p>
+      <div class="rule short"></div>
+      <div class="svc-grid">
+        <button class="svc-card" type="button" data-goto="kitchens"><div class="ph photo" style="background-image:url('img/kitchen.jpg')"></div><div class="body"><h3>Kitchen Remodeling</h3><p>Cabinets, countertops, backsplash and layout updates.</p><span class="more">Learn more</span></div></button>
+        <button class="svc-card" type="button" data-goto="bathrooms"><div class="ph photo" style="background-image:url('img/bath.jpg')"></div><div class="body"><h3>Bathroom Remodeling</h3><p>Showers, tubs, vanities and tile, from refresh to full rebuild.</p><span class="more">Learn more</span></div></button>
+        <button class="svc-card" type="button" data-goto="flooring"><div class="ph photo" style="background-image:url('img/floor.jpg')"></div><div class="body"><h3>Flooring</h3><p>Hardwood, luxury vinyl plank, laminate and tile.</p><span class="more">Learn more</span></div></button>
+        <button class="svc-card" type="button" data-goto="painting"><div class="ph photo" style="background-image:url('img/paint.jpg')"></div><div class="body"><h3>House Painting</h3><p>Interior and exterior painting with careful preparation.</p><span class="more">Learn more</span></div></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="build3d" id="build3d" aria-label="From blueprint to finished home">
+    <div class="stage-wrap">
+      <div class="b3-copy">
+        <span class="eyebrow">HOW A PROJECT COMES TOGETHER</span>
+        <h2>From Blueprint <br>to Your Home</h2>
+        <p class="t-sub">Scroll to watch it take shape</p>
+        <ol class="stages">
+          <li class="on cur"><span class="k">STEP 01</span><b>Plan</b><p>We measure, listen, and draw up a clear plan and written estimate.</p></li>
+          <li><span class="k">STEP 02</span><b>Build</b><p>Our team builds with care, keeps the site clean and keeps you updated.</p></li>
+          <li><span class="k">STEP 03</span><b>Final</b><p>Finishing details and a walkthrough together. Your home, at the next level.</p></li>
+        </ol>
+      </div>
+      <div id="houseCanvasWrap" role="img" aria-label="3D model of a house that builds from blueprint lines into a finished home"></div>
+    </div>
+    <div class="b3-block" aria-live="polite">
+      <div class="r1"><span>NEXT LEVEL IMPROVEMENT</span><span id="b3step">STEP 01 / 03</span></div>
+      <div class="r2"><b id="b3word">PLAN</b><span id="b3note">Blueprint &amp; estimate</span></div>
+      <div class="r3"><span class="bar"><i id="b3bar"></i></span><span id="b3pct">0%</span></div>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="ph photo" style="background-image:url('img/plans-man.jpg')"></div>
+    <div class="wrap">
+      <h2>The Next Level Process</h2>
+      <p class="t-sub">One Clear Plan, From First Call to Final Walkthrough</p>
+      <div class="glass-cards">
+        <div class="glass"><h3>Remodeling</h3><p>Kitchens and bathrooms are the heart of a home. We help you decide what to keep and what to change, prepare a detailed estimate, and manage the project from demolition to the final trim so you always know what happens next.</p></div>
+        <div class="glass"><h3>Floors &amp; Paint</h3><p>New flooring and fresh paint can transform a whole house in days. We protect your furniture and floors, prepare every surface properly, and leave clean lines and a clean home behind us.</p></div>
+      </div>
+      <div class="btn-row" style="margin-top:44px"><a class="btn btn-frame" href="#about">See our full process</a></div>
+    </div>
+  </section>
+
+</section>
+
+<!-- =================== ABOUT =================== -->
+<section class="view" data-view="about" aria-label="About">
+  <section class="sec about-top" id="a-about">
+    <nav class="side-nav" aria-label="On this page">
+      <button type="button" data-scroll="a-about">About Us</button>
+      <button type="button" data-scroll="a-process">Our Process</button>
+      <button type="button" data-scroll="a-commit">Our Commitment</button>
+    </nav>
+    <div class="wrap">
+      <div class="big-logo"><span class="stack-logo"><svg class="nl-mark" viewBox="0 0 200 170" aria-hidden="true"><use href="#nl-mark"/></svg><b>NEXT LEVEL</b><span class="st-rule"><i></i><em></em><i></i></span><span class="st-sub">IMPROVEMENT</span></span></div>
+      <h1 class="t-title" style="font-size:clamp(1.8rem,3.6vw,2.6rem)">About Next Level Improvement</h1>
+      <p class="t-sub">Providing <b>Remodeling, Flooring</b> &amp; <b>Painting</b> in Centreville, VA</p>
+      <div class="rule"></div>
+      <div class="center-copy">
+        <p>At Next Level Improvement, your project is our priority. We are a remodeling company dedicated to kitchens, bathrooms, flooring and painting, and to doing each of them well.</p>
+        <p>Our name is our promise: we want every home we work on to reach the next level, and every homeowner to be glad they called us. That is why we measure our success by one thing, the satisfaction of our clients.</p>
+        <p>We know a remodel happens in the middle of your daily life. We keep you informed, protect your home while we work, and clean up at the end of each day, so you can focus on what matters while your space takes shape.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="a-process">
+    <div class="ph photo" style="background-image:url('img/plans-man.jpg')"></div>
+    <div class="wrap">
+      <h2>The Next Level Process</h2>
+      <p class="t-sub">Two Kinds of Projects, One Trusted Process</p>
+      <div class="glass-cards">
+        <div class="glass"><h3>Kitchens &amp; Bathrooms</h3><p>Whether you are updating a hall bath or rebuilding your kitchen, we start by listening. We review the space, talk through layout, materials and budget, and give you a written plan before work begins. Then we build it with care and attention to detail.</p></div>
+        <div class="glass"><h3>Flooring &amp; Painting</h3><p>Finishes make the difference. We help you choose the right floor and the right colors for your home, prepare every surface properly, and install and paint with clean, precise workmanship that looks good up close.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="checker" data-checker></div>
+
+
+  <section class="split" id="a-commit">
+    <div class="left ph photo" style="background-image:url('img/living.jpg')"></div>
+    <div class="right">
+      <h2>Our Commitment</h2>
+      <p class="t-sub">Your Vision, Our Work<br>Satisfaction You Can Count On</p>
+      <p class="copy">At Next Level Improvement, we are committed to careful workmanship and honest communication on every project. We agree on the scope in writing before we start, keep you updated as we go, and walk the finished job with you. If something isn’t right, we make it right. Your satisfaction is the result we work for.</p>
+    </div>
+  </section>
+</section>
+
+<!-- =================== SERVICES =================== -->
+<section class="view" data-view="services" aria-label="Services">
+  <div class="hero" style="min-height:400px">
+    <div class="ph photo" style="background-image:url('img/kitchen3.jpg')"></div>
+    <div class="inner">
+      <h1 style="font-size:clamp(2rem,4.6vw,3.2rem)">Our Services</h1>
+      <p class="t-sub">Kitchens · Bathrooms · Flooring · Painting</p>
+      <div class="rule"></div>
+      <div class="btn-row" style="margin-top:6px">
+        <button class="btn btn-line" type="button" data-jump="kitchens">Kitchens</button>
+        <button class="btn btn-line" type="button" data-jump="bathrooms">Bathrooms</button>
+        <button class="btn btn-line" type="button" data-jump="flooring">Flooring</button>
+        <button class="btn btn-line" type="button" data-jump="painting">Painting</button>
+      </div>
+    </div>
+  </div>
+
+  <article class="svc-detail" id="svc-kitchens">
+    <div class="ph photo" style="background-image:url('img/kitchen4.jpg')"></div>
+    <div class="txt">
+      <h2>Kitchen Remodeling</h2>
+      <p class="t-sub">A Kitchen Built Around the Way You Live</p>
+      <p>From new cabinet fronts and countertops to a complete new layout, we plan your kitchen with you and handle the work from demolition to the final trim.</p>
+      <ul class="ticks"><li>Cabinets &amp; refacing</li><li>Countertops</li><li>Backsplash &amp; tile</li><li>Sinks &amp; fixtures</li><li>Layout updates</li><li>Kitchen floors &amp; paint</li></ul>
+      <div><a class="btn btn-frame" href="#contact" data-prefill="Kitchen">Discuss your kitchen</a></div>
+    </div>
+  </article>
+  <article class="svc-detail" id="svc-bathrooms">
+    <div class="ph photo" style="background-image:url('img/bath3.jpg')"></div>
+    <div class="txt">
+      <h2>Bathroom Remodeling</h2>
+      <p class="t-sub">Comfortable, Practical, Easy to Clean</p>
+      <p>From a quick hall bath refresh to a full primary bathroom remodel, we take care of tile, fixtures and finishes so the room works well for years.</p>
+      <ul class="ticks"><li>Showers &amp; tubs</li><li>Tub-to-shower conversions</li><li>Vanities &amp; mirrors</li><li>Wall &amp; floor tile</li><li>Toilets &amp; fixtures</li><li>Paint &amp; trim</li></ul>
+      <div><a class="btn btn-frame" href="#contact" data-prefill="Bathroom">Discuss your bathroom</a></div>
+    </div>
+  </article>
+  <article class="svc-detail" id="svc-flooring">
+    <div class="ph photo" style="background-image:url('img/floor3.jpg')"></div>
+    <div class="txt">
+      <h2>Flooring</h2>
+      <p class="t-sub">Installed Flat, Finished Clean</p>
+      <p>We help you choose a floor that suits the room, your budget and your household, then prepare the subfloor properly so the new floor stays flat and quiet.</p>
+      <ul class="ticks"><li>Hardwood</li><li>Luxury vinyl plank</li><li>Laminate</li><li>Tile</li><li>Old floor removal</li><li>Baseboards &amp; transitions</li></ul>
+      <div><a class="btn btn-frame" href="#contact" data-prefill="Flooring">Discuss your floors</a></div>
+    </div>
+  </article>
+  <article class="svc-detail" id="svc-painting">
+    <div class="ph photo" style="background-image:url('img/paint2.jpg');background-position:50% 40%"></div>
+    <div class="txt">
+      <h2>House Painting</h2>
+      <p class="t-sub">Paint That Looks Sharp Up Close</p>
+      <p>Great paint jobs come down to preparation. We patch, sand, tape and protect before the first coat, and leave clean lines and a clean house.</p>
+      <ul class="ticks"><li>Interior walls &amp; ceilings</li><li>Trim, doors &amp; cabinets</li><li>Exterior siding &amp; trim</li><li>Drywall patching</li><li>Color guidance</li><li>Furniture protection</li></ul>
+      <div><a class="btn btn-frame" href="#contact" data-prefill="Painting">Discuss your painting</a></div>
+    </div>
+  </article>
+
+  <section class="sec" style="background:var(--slate)">
+    <div class="wrap on-dark">
+      <h2 class="t-title">How We Work</h2>
+      <p class="t-sub">Assess · Plan · Build · Deliver</p>
+      <div class="steps4">
+        <div><span class="n">1</span><h3>Assess</h3><p>We visit, measure, and listen to what you want from the space.</p></div>
+        <div><span class="n">2</span><h3>Plan</h3><p>You receive a written scope, estimate and schedule before work begins.</p></div>
+        <div><span class="n">3</span><h3>Build</h3><p>Our team does the work carefully and keeps you updated throughout.</p></div>
+        <div><span class="n">4</span><h3>Deliver</h3><p>We walk the finished job with you and make sure you are satisfied.</p></div>
+      </div>
+    </div>
+  </section>
+</section>
+
+<!-- =================== OUR WORK =================== -->
+<section class="view" data-view="work" aria-label="Our work">
+  <section class="sec">
+    <div class="wrap">
+      <div class="big-logo"><span class="stack-logo"><svg class="nl-mark" viewBox="0 0 200 170" aria-hidden="true"><use href="#nl-mark"/></svg><b>NEXT LEVEL</b><span class="st-rule"><i></i><em></em><i></i></span><span class="st-sub">IMPROVEMENT</span></span></div>
+      <h1 class="t-title" style="color:var(--navy)">Our Work</h1>
+      <p class="t-sub">Redesigning &amp; Refinishing Homes<br>with Precision and Care</p>
+      <div class="rule"></div>
+      <div class="center-copy"><p>From a fresh coat of paint to a completely new kitchen, every project gets the same attention to detail. Explore our before-and-after transformations and browse our work by service.</p></div>
+    </div>
+  </section>
+
+
+  <section class="sec">
+    <div class="wrap">
+      <h2 class="t-title" style="color:var(--navy)">Inspiration Gallery</h2>
+      <p class="t-sub">Choose a Service for Ideas</p>
+      <div class="rule short"></div>
+      <div class="circles" role="group" aria-label="Filter projects by service">
+        <button class="circle" type="button" data-cat="kitchen" aria-pressed="false"><div class="ph bw photo" style="background-image:url('img/kitchen2.jpg')"></div><span>Kitchens</span></button>
+        <button class="circle" type="button" data-cat="bath" aria-pressed="false"><div class="ph bw photo" style="background-image:url('img/bath2.jpg')"></div><span>Bathrooms</span></button>
+        <button class="circle" type="button" data-cat="floor" aria-pressed="false"><div class="ph bw photo" style="background-image:url('img/floor2.jpg')"></div><span>Flooring</span></button>
+        <button class="circle" type="button" data-cat="paint" aria-pressed="false"><div class="ph bw photo" style="background-image:url('img/paint2.jpg')"></div><span>Painting</span></button>
+      </div>
+      <div class="work-grid" id="workGrid"></div>
+      <p class="ba-cap" style="margin-top:22px">Sample photos for inspiration. Photos of our completed projects are coming soon.</p>
+    </div>
+  </section>
+</section>
+
+<!-- =================== CONTACT =================== -->
+<section class="view" data-view="contact" aria-label="Contact">
+  <section class="contact-top">
+    <div class="info">
+      <h1>Contact Us</h1>
+      <p>Fill out the form, or call us to set up a consultation.</p>
+      <b>Service Area:</b><span>Centreville, VA &amp; Surrounding Areas</span>
+      <b>Phone:</b><a href="tel:+15716743082">(571) 674-3082</a>
+      <b>WhatsApp:</b><a href="https://wa.me/15716743082" target="_blank" rel="noopener">(571) 674-3082</a>
+      <b>Email:</b><a href="mailto:nexetlevelimprovementllc@gmail.com" style="word-break:break-all">nexetlevelimprovementllc@gmail.com</a>
+      <b>Location:</b><span>Centreville, VA 20120</span>
+    </div>
+    <div class="formside">
+      <div class="ph light photo" style="background-image:url('img/plans.jpg')"></div>
+      <form class="form js-lead" novalidate data-form="contact">
+        <div class="row">
+          <div><label for="c-first">First Name *</label><input id="c-first" name="firstName" autocomplete="given-name" required><span class="err">Enter your first name.</span></div>
+          <div><label for="c-last">Last Name *</label><input id="c-last" name="lastName" autocomplete="family-name" required><span class="err">Enter your last name.</span></div>
+        </div>
+        <div class="row">
+          <div><label for="c-email">Email *</label><input id="c-email" name="email" type="email" autocomplete="email" required><span class="err">Enter a valid email.</span></div>
+          <div><label for="c-phone">Phone</label><input id="c-phone" name="phone" type="tel" autocomplete="tel"><span class="err">Enter a 10-digit US number.</span></div>
+        </div>
+        <div><label for="c-address">Address</label><input id="c-address" name="address" autocomplete="street-address"></div>
+        <div><label for="c-service">Service</label>
+          <select id="c-service" name="service"><option value="">Choose a service</option><option>Kitchen</option><option>Bathroom</option><option>Flooring</option><option>Painting</option><option>Other</option></select></div>
+        <div><label for="c-msg">Message</label><textarea id="c-msg" name="message"></textarea></div>
+        <div class="hp" aria-hidden="true"><label for="c-web">Leave empty</label><input id="c-web" name="website" tabindex="-1" autocomplete="off"></div>
+        <div class="status" role="status" aria-live="polite"></div>
+        <button class="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="sec">
+    <div class="area-box">
+      <b>SERVICE AREA</b>
+      <span>Centreville, Virginia</span>
+      <span>&amp; Surrounding Areas</span>
+    </div>
+  </section>
+
+</section>
+
+<!-- =================== REVIEWS =================== -->
+<section class="view" data-view="reviews" aria-label="Reviews">
+  <section class="say" style="padding-bottom:120px">
+    <div class="ph photo" style="background-image:url('img/house-brick.jpg')"></div>
+    <div class="wrap">
+      <h2>WHAT PEOPLE SAY</h2>
+      <div class="say-card">
+        <div class="stars" aria-hidden="true">★★★★★</div>
+        <h3>Your story here</h3>
+        <p class="loc">Centreville, VA</p>
+        <p>We are a new company and our first client reviews are on the way. Once they come in, they will appear on this page with the client’s name and town.</p>
+        <div class="q" aria-hidden="true">”</div>
+      </div>
+      <a class="btn btn-frame" href="#contact">Tell us about your project</a>
+    </div>
+  </section>
+</section>
+
+</main>
+
+<section class="foot" id="footContact" aria-label="Contact us">
+  <div class="wrap">
+    <div>
+      <a class="foot-logo" href="#home" aria-label="Next Level Improvement, home"><span class="lockup"><svg class="nl-mark" viewBox="0 0 200 170" aria-hidden="true"><use href="#nl-mark"/></svg><span class="lk-text"><b>NEXT LEVEL</b><i></i><span>IMPROVEMENT</span></span></span></a>
+      <h2>Let’s Discuss<br>Your Next Project</h2>
+      <div class="info">
+        <p>Fill out the form, or call us to set up a consultation.</p>
+        <b>Service Area:</b><span>Centreville, VA &amp; Surrounding Areas</span>
+        <b>Contact:</b>
+        <span>Phone: <a href="tel:+15716743082">(571) 674-3082</a></span>
+        <span>WhatsApp: <a href="https://wa.me/15716743082" target="_blank" rel="noopener">(571) 674-3082</a></span>
+        <span>Email: <a href="mailto:nexetlevelimprovementllc@gmail.com" style="word-break:break-all">nexetlevelimprovementllc@gmail.com</a></span>
+        <span>Centreville, VA 20120</span>
+      </div>
+    </div>
+    <form class="form underline js-lead" novalidate data-form="footer">
+      <div class="row">
+        <div><label for="f-first">First Name *</label><input id="f-first" name="firstName" autocomplete="given-name" required><span class="err">Enter your first name.</span></div>
+        <div><label for="f-last">Last Name *</label><input id="f-last" name="lastName" autocomplete="family-name" required><span class="err">Enter your last name.</span></div>
+      </div>
+      <div class="row">
+        <div><label for="f-email">Email *</label><input id="f-email" name="email" type="email" autocomplete="email" required><span class="err">Enter a valid email.</span></div>
+        <div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"><span class="err">Enter a 10-digit US number.</span></div>
+      </div>
+      <div><label for="f-address">Address</label><input id="f-address" name="address" autocomplete="street-address"></div>
+      <div><label for="f-subject">Subject</label><input id="f-subject" name="subject"></div>
+      <div><label for="f-msg">Message</label><textarea id="f-msg" name="message"></textarea></div>
+      <div class="hp" aria-hidden="true"><label for="f-web">Leave empty</label><input id="f-web" name="website" tabindex="-1" autocomplete="off"></div>
+      <div class="status" role="status" aria-live="polite"></div>
+      <button class="submit" type="submit">Submit</button>
+    </form>
+  </div>
+</section>
+<div class="legal">
+  <div class="wrap">
+    <span>© <span id="yr">2026</span> Next Level Improvement. All rights reserved.</span>
+    <nav aria-label="Footer"><a href="#services">Services</a><a href="#work">Our Work</a><a href="#contact">Contact</a><span>Privacy Policy (placeholder)</span></nav>
+  </div>
+</div>
+
+<div class="mbar"><a href="tel:+15716743082">Call</a><a class="mb-wa" href="https://wa.me/15716743082?text=Hello%20Next%20Level%20Improvement%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.2.6 4.4 1.7 6.3L3.2 29l7.3-1.9c1.8 1 3.9 1.5 6 1.5 7 0 12.7-5.6 12.7-12.6S23 3 16 3zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.3 1.1 1.2-4.2-.3-.4a10.4 10.4 0 0 1-1.6-5.4C5.2 9.8 10 5.1 16 5.1s10.8 4.7 10.8 10.5S22 26.1 16 26.1zm5.9-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.8 5 .8.4 1.4.6 1.9.7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg>WhatsApp</a><a href="#contact">Contact</a></div>
+<a class="wa-fab" id="waFab" href="https://wa.me/15716743082?text=Hello%20Next%20Level%20Improvement%2C%20I%27d%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener" aria-label="Chat with us on WhatsApp"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.2.6 4.4 1.7 6.3L3.2 29l7.3-1.9c1.8 1 3.9 1.5 6 1.5 7 0 12.7-5.6 12.7-12.6S23 3 16 3zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.3 1.1 1.2-4.2-.3-.4a10.4 10.4 0 0 1-1.6-5.4C5.2 9.8 10 5.1 16 5.1s10.8 4.7 10.8 10.5S22 26.1 16 26.1zm5.9-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2l-1 1.2c-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7l.5-.6.3-.5c.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.8s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.8 5 .8.4 1.4.6 1.9.7.8.3 1.6.2 2.2.1.7-.1 1.9-.8 2.2-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"/></svg><span>WhatsApp</span></a>
+
+<button class="chat-fab" id="chatFab" type="button" aria-controls="chat" aria-expanded="false">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>Plan my project
+</button>
+<section class="chat" id="chat" aria-label="Project assistant">
+  <div class="chat-head">
+    <svg class="chat-mark" viewBox="0 0 200 170" aria-hidden="true"><use href="#nl-mark"/></svg>
+    <div><b>Next Level Assistant</b><small>Ask anything, or get an estimate</small></div>
+    <button type="button" id="chatClose" aria-label="Close assistant">×</button>
+  </div>
+  <div class="chat-log" id="chatLog" aria-live="polite" data-lenis-prevent></div>
+  <form class="chat-input" id="chatForm">
+    <label class="sr-only" for="chatText">Message</label>
+    <input id="chatText" autocomplete="off" placeholder="Type a message…">
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script>
+let lenis=null;
+function goTo(el){if(!el)return;if(lenis)lenis.scrollTo(el,{offset:-90,duration:1.3});else el.scrollIntoView({behavior:"smooth"})}
+function toTop(){if(lenis)lenis.scrollTo(0,{immediate:true});else window.scrollTo(0,0)}
+/* ===== Site configuration: edit when the client confirms details ===== */
+const CONFIG = {
+  phoneDisplay: "(571) 674-3082",
+  email: "nexetlevelimprovementllc@gmail.com", // as provided by client; spelling to confirm
+  whatsapp: "15716743082", // company WhatsApp number (country code + number, digits only)
+  formEndpoint: "", // optional: server endpoint that also receives form/assistant leads (e.g. an email service)
+  aiEndpoint: ""    // optional: chat endpoint for AI replies (see server/chat-worker.js). Empty = built-in assistant
+};
+
+function waLink(t){return "https://wa.me/"+CONFIG.whatsapp+(t?"?text="+encodeURIComponent(t):"")}
+function openExternal(u){let w=null;try{w=window.open(u,"_blank","noopener")}catch(e){}if(!w){try{location.href=u}catch(e){}}}
+function escHTML(t){return String(t).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+/* ===== Line-drawing placeholders (replace with client photos) ===== */
+function svgWrap(inner,stroke){return `<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g fill="none" stroke="${stroke}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">${inner}</g></svg>`}
+const LINES={
+  house:()=>{let w="";[[110,140],[182,140],[254,140]].forEach(([x,y])=>{w+=`<rect x="${x}" y="${y}" width="36" height="44"/><line x1="${x+18}" y1="${y}" x2="${x+18}" y2="${y+44}"/><line x1="${x}" y1="${y+22}" x2="${x+36}" y2="${y+22}"/><rect x="${x-9}" y="${y}" width="7" height="44"/><rect x="${x+38}" y="${y}" width="7" height="44"/>`});
+    [[110,206],[254,206]].forEach(([x,y])=>{w+=`<rect x="${x}" y="${y}" width="36" height="40"/><line x1="${x+18}" y1="${y}" x2="${x+18}" y2="${y+40}"/>`});
+    return `<line x1="20" y1="262" x2="380" y2="262"/><rect x="80" y="120" width="240" height="142"/><path d="M66 122 200 48l134 74"/><rect x="268" y="58" width="22" height="44"/>${w}
+    <rect x="182" y="200" width="36" height="62"/><circle cx="211" cy="232" r="2"/><path d="M150 196h100M156 196v66M244 196v66M150 196l50-18 50 18"/>
+    <path d="M30 262c0-20 30-20 30 0M330 262c0-24 36-24 36 0M300 262c0-14 22-14 22 0"/>`},
+  kitchen:()=>{let s="";for(let x=30;x<370;x+=56){s+=`<rect x="${x}" y="40" width="52" height="70"/><circle cx="${x+44}" cy="100" r="1.5"/>`}
+    for(let x=30;x<370;x+=56){s+=`<rect x="${x}" y="170" width="52" height="70"/><line x1="${x+18}" y1="178" x2="${x+34}" y2="178"/>`}
+    return `${s}<path d="M20 162h360v8H20z"/><path d="M168 110l-14 34h92l-14-34z"/><rect x="170" y="186" width="60" height="44"/><circle cx="182" cy="178" r="3"/><circle cx="218" cy="178" r="3"/>
+    <line x1="20" y1="252" x2="380" y2="252"/><line x1="200" y1="0" x2="200" y2="18"/><path d="M190 18h20l6 12h-32z"/>
+    <path d="M40 162v-14h18v14M300 162c0-10 14-10 14 0"/><line x1="20" y1="110" x2="380" y2="110" stroke-dasharray="3 6"/>`},
+  bath:()=>{let t="";for(let y=60;y<250;y+=22){t+=`<line x1="230" y1="${y}" x2="380" y2="${y}"/>`}for(let x=230;x<=380;x+=25){t+=`<line x1="${x}" y1="60" x2="${x}" y2="250"/>`}
+    return `${t}<rect x="230" y="40" width="150" height="210"/><path d="M330 58h26v14"/><circle cx="356" cy="78" r="8"/>
+    <rect x="60" y="40" width="110" height="88" rx="44"/><path d="M40 158h150v10H40z"/><rect x="48" y="168" width="134" height="74"/><line x1="115" y1="172" x2="115" y2="238"/><circle cx="106" cy="205" r="2"/><circle cx="124" cy="205" r="2"/>
+    <ellipse cx="115" cy="158" rx="28" ry="5"/><path d="M115 153v-12h10"/><line x1="10" y1="250" x2="390" y2="250"/><path d="M20 158c4-18 16-18 16-30M28 158c-2-14-12-16-12-26"/>`},
+  floor:()=>{let s="";const vx=200,vy=30,at=(xb,y)=>vx+(xb-vx)*(y-vy)/(300-vy);for(let xb=-500;xb<=900;xb+=60){s+=`<line x1="${at(xb,150)}" y1="150" x2="${xb}" y2="300"/>`}
+    for(let i=0;i<24;i++){const xb=-500+i*60,y=165+((i*41)%120);s+=`<line x1="${at(xb,y)}" y1="${y}" x2="${at(xb+60,y)}" y2="${y}"/>`}
+    return `${s}<line x1="0" y1="150" x2="400" y2="150"/><rect x="0" y="138" width="400" height="12"/><rect x="150" y="26" width="100" height="90"/><line x1="200" y1="26" x2="200" y2="116"/><line x1="150" y1="71" x2="250" y2="71"/>
+    <path d="M40 138v-34h80v34M34 104h92v-14H34z"/><path d="M310 138V70M292 70h36l-8-22h-20z"/>`},
+  paint:()=>`<rect x="20" y="20" width="360" height="230"/><line x1="200" y1="20" x2="200" y2="250" stroke-dasharray="6 6"/>
+    <path d="M60 60h80v120H60zM70 70h60v40H70zM70 120h60v50H70z"/><path d="M226 90h70v24h-70zM296 102h12v50h-44v28"/><rect x="258" y="180" width="12" height="60" rx="5"/>
+    <path d="M330 250V120M370 250V120M330 150h40M330 185h40M330 220h40"/><path d="M226 250v-30h44v30M226 220c0-8 44-8 44 0"/><line x1="0" y1="250" x2="400" y2="250"/>`,
+  plan:()=>`<rect x="40" y="40" width="320" height="220"/><line x1="200" y1="40" x2="200" y2="150"/><line x1="40" y1="150" x2="150" y2="150"/><line x1="180" y1="150" x2="360" y2="150"/>
+    <line x1="280" y1="150" x2="280" y2="260"/><path d="M150 150a30 30 0 0 1 30-30M200 120a24 24 0 0 0-24-24" /><path d="M280 200a26 26 0 0 1 26 26"/>
+    <rect x="60" y="60" width="60" height="30"/><rect x="220" y="60" width="120" height="16"/><rect x="300" y="170" width="44" height="70"/><circle cx="110" cy="210" r="26"/>
+    <path d="M40 22h160M40 16v12M200 16v12"/><path d="M378 40v110M372 40h12M372 150h12"/>
+    <text x="104" y="17" fill="currentColor" stroke="none" font-size="10" font-family="Helvetica" letter-spacing="1">14'-6"</text>`
+};
+function lineArt(el){const k=el.dataset.line;if(!LINES[k])return;
+  const stroke=el.classList.contains("bw")||el.classList.contains("light")?"rgba(40,50,70,.55)":"rgba(255,255,255,.78)";
+  el.insertAdjacentHTML("afterbegin",svgWrap(LINES[k](),stroke));
+  if(!el.classList.contains("bw")&&!el.classList.contains("light"))el.style.color="rgba(255,255,255,.8)";}
+document.querySelectorAll("[data-line]").forEach(lineArt);
+
+/* ===== Checkerboard process (about + home) ===== */
+const STEPS=[
+  ["Welcome Call","We start with a conversation about your project, your goals, your timeline and your budget, so we understand exactly what you want."],
+  ["On-Site Consultation","We visit your home, measure the space, assess existing conditions and talk through ideas and options in person."],
+  ["Design & Estimate","You receive a clear written estimate covering materials, labor and schedule, so you can decide with confidence."],
+  ["Material Selection","We help you choose cabinets, tile, flooring and colors that fit your style and budget."],
+  ["Under Construction","Our team gets to work with care: protecting your home, keeping the site clean, and keeping you updated."],
+  ["The Finishing Touches","Final details, cleanup and a walkthrough together. The job is done when you are satisfied."]
+];
+const STEP_IMG=["contractor","plans-table","plans","materials","saw","finishing"];
+const STEP_POS=["50% 20%","50% 50%","50% 50%","50% 50%","40% 50%","50% 45%"];
+document.querySelectorAll("[data-checker]").forEach(el=>{
+  let h="";STEPS.forEach((s,i)=>{const row=Math.floor(i/2);const img=`<div class="cell img ph photo" style="background-image:url('img/${STEP_IMG[i]}.jpg');background-position:${STEP_POS[i]};--o:${i*2}"><span class="step-badge">0${i+1}</span></div>`;
+    const txt=`<div class="cell txt" style="--o:${i*2+1}"><span class="step-no">Step ${i+1}</span><h3>${s[0]}</h3><p>${s[1]}</p></div>`;
+    h+= row%2===0 ? img+txt : txt+img;});
+  el.innerHTML=h;el.querySelectorAll("[data-line]").forEach(lineArt);
+});
+
+/* ===== Before / after carousel ===== */
+if(document.getElementById("baBefore")){
+const BA=[["house","Home exterior refresh"],["kitchen","Kitchen remodel"],["bath","Bathroom remodel"],["floor","New flooring"]];
+let baI=0;const baB=document.getElementById("baBefore"),baA=document.getElementById("baAfter"),dots=document.getElementById("baDots");
+dots.innerHTML=BA.map((b,i)=>`<button type="button" aria-label="Show ${b[1]}"></button>`).join("");
+function showBA(i){baI=(i+BA.length)%BA.length;const k=BA[baI][0];
+  baB.innerHTML="";baB.dataset.line=k;lineArt(baB);baB.querySelector("svg g").setAttribute("stroke-dasharray","4 5");
+  baA.innerHTML="";baA.dataset.line=k;lineArt(baA);
+  document.getElementById("baCap").textContent=BA[baI][1]+" · client photos coming";
+  [...dots.children].forEach((d,j)=>d.setAttribute("aria-current",j===baI?"true":"false"));}
+document.getElementById("baPrev").onclick=()=>showBA(baI-1);document.getElementById("baNext").onclick=()=>showBA(baI+1);
+[...dots.children].forEach((d,j)=>d.onclick=()=>showBA(j));showBA(0);
+}
+
+/* ===== Services gallery grid ===== */
+const WORK=[["kitchen","kitchen","White shaker kitchen"],["bath","bath","Glass shower & vanity"],["floor","floor","Dark hardwood living room"],["paint","paint3","Fresh interior color"],["kitchen","kitchen2","Modern kitchen island"],["bath","bath2","Spa-style bathroom"],["floor","floor2","Warm oak flooring"],["paint","paint2","Exterior repaint"],["kitchen","kitchen4","Open kitchen with island"],["bath","bath3","Floating vanity"],["floor","floor3","Light wood open plan"],["paint","paint","Wall painting"]];
+const grid=document.getElementById("workGrid");
+function renderWork(cat){grid.innerHTML=WORK.filter(w=>!cat||w[0]===cat).map(w=>`<div class="item"><div class="ph photo" style="background-image:url('img/${w[1]}.jpg')"></div><b>${w[2]}</b></div>`).join("");
+  grid.querySelectorAll("[data-line]").forEach(lineArt)}
+document.querySelectorAll(".circle").forEach(c=>c.addEventListener("click",()=>{const on=c.getAttribute("aria-pressed")!=="true";
+  document.querySelectorAll(".circle").forEach(x=>x.setAttribute("aria-pressed","false"));if(on)c.setAttribute("aria-pressed","true");renderWork(on?c.dataset.cat:null)}));
+renderWork(null);
+
+/* ===== Routing ===== */
+const VIEWS=["home","about","services","work","contact","reviews"];let pendingScroll=null;
+function route(){const h=(location.hash||"#home").slice(1);const v=VIEWS.includes(h)?h:"home";
+  document.querySelectorAll(".view").forEach(s=>s.classList.toggle("active",s.dataset.view===v));
+  document.querySelectorAll("[data-nav]").forEach(a=>a.dataset.nav===v?a.setAttribute("aria-current","page"):a.removeAttribute("aria-current"));
+  document.getElementById("footContact").style.display=v==="contact"?"none":"";
+  document.getElementById("nav").classList.remove("open");document.getElementById("menuBtn").setAttribute("aria-expanded","false");
+  if(pendingScroll){const el=document.getElementById(pendingScroll);pendingScroll=null;if(el)requestAnimationFrame(()=>goTo(el))}else toTop();
+  if(window.onRoute)window.onRoute(v);}
+window.addEventListener("hashchange",route);
+document.addEventListener("click",e=>{
+  const g=e.target.closest("[data-goto]");if(g){pendingScroll="svc-"+g.dataset.goto;location.hash==="#services"?route():location.hash="services"}
+  const j=e.target.closest("[data-jump]");if(j)goTo(document.getElementById("svc-"+j.dataset.jump));
+  const s=e.target.closest("[data-scroll]");if(s)goTo(document.getElementById(s.dataset.scroll));
+  const p=e.target.closest("[data-prefill]");if(p)document.getElementById("c-service").value=p.dataset.prefill;
+});
+document.getElementById("menuBtn").onclick=function(){const o=document.getElementById("nav").classList.toggle("open");this.setAttribute("aria-expanded",o)};
+
+
+/* ===== Lead forms ===== */
+const digits=s=>(s||"").replace(/\D/g,"");
+function validField(inp){const v=inp.value.trim();let ok=true;
+  if(inp.required&&!v)ok=false;
+  if(ok&&inp.type==="email"&&v)ok=/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+  if(ok&&inp.type==="tel"&&v){const d=digits(v);ok=d.length===10||(d.length===11&&d[0]==="1")}
+  inp.parentElement.classList.toggle("invalid",!ok);inp.setAttribute("aria-invalid",String(!ok));return ok}
+document.querySelectorAll("form.js-lead").forEach(f=>{
+  const st=f.querySelector(".status");const show=(k,m)=>{st.className="status show "+k;st.textContent=m};
+  f.querySelectorAll("input[required],input[type=email],input[type=tel]").forEach(i=>i.addEventListener("blur",()=>validField(i)));
+  f.addEventListener("submit",async e=>{e.preventDefault();
+    if(f.querySelector('[name="website"]').value)return;
+    const checks=[...f.querySelectorAll("input[required],input[type=email],input[type=tel]")].map(validField);
+    if(checks.includes(false)){show("bad","Please fix the highlighted fields.");f.querySelector(".invalid input")?.focus();return}
+    const data=Object.fromEntries(new FormData(f));delete data.website;data.source=f.dataset.form;
+    const lines=["Hello Next Level Improvement, I'd like to discuss a project.",
+      "Name: "+[data.firstName,data.lastName].filter(Boolean).join(" "),
+      data.phone&&("Phone: "+data.phone),"Email: "+data.email,data.address&&("Address: "+data.address),
+      data.service&&("Service: "+data.service),data.subject&&("Subject: "+data.subject),data.message&&("Message: "+data.message)].filter(Boolean);
+    const wa=waLink(lines.join("\n")),mail="mailto:"+CONFIG.email+"?subject="+encodeURIComponent("Project request from "+(data.firstName||"website"))+"&body="+encodeURIComponent(lines.join("\n"));
+    openExternal(wa);
+    st.className="status show ok";
+    st.innerHTML='Thank you! Your request is ready in WhatsApp, just press <b>Send</b>. If WhatsApp didn’t open, <a href="'+wa+'" target="_blank" rel="noopener">send it on WhatsApp</a> or <a href="'+mail+'">email us</a>.';
+    if(CONFIG.formEndpoint){try{await fetch(CONFIG.formEndpoint,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)})}catch(err){}}
+    f.reset();
+  });
+});
+
+/* ===== Next Level assistant: conversational, works without a server; optional AI endpoint ===== */
+const chat=document.getElementById("chat"),fab=document.getElementById("chatFab"),log=document.getElementById("chatLog"),chatText=document.getElementById("chatText");
+const A={lead:{},await:null,offer:null,started:false,hist:[]};
+function toggleChat(o){chat.classList.toggle("open",o);fab.style.display=o?"none":"flex";fab.setAttribute("aria-expanded",o);
+  const wf=document.getElementById("waFab");if(wf)wf.style.display=o?"none":"";
+  if(o){if(!A.started){A.started=true;greet()}setTimeout(()=>chatText.focus(),60)}else fab.focus()}
+fab.onclick=()=>toggleChat(true);document.getElementById("chatClose").onclick=()=>toggleChat(false);
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&chat.classList.contains("open"))toggleChat(false)});
+function addMsg(html,who){const d=document.createElement("div");d.className="msg "+who;d.innerHTML=html;log.appendChild(d);log.scrollTop=log.scrollHeight;return d}
+function me(t){addMsg(escHTML(t),"me");A.hist.push({role:"user",content:t})}
+let q=Promise.resolve();
+function bot(html,quickOpts){q=q.then(()=>new Promise(res=>{
+  const ty=addMsg('<span class="dots" aria-label="typing"><i></i><i></i><i></i></span>',"bot typing");
+  const plain=html.replace(/<[^>]+>/g,""),wait=Math.min(1000,320+plain.length*7);
+  setTimeout(()=>{ty.remove();addMsg(html,"bot");A.hist.push({role:"assistant",content:plain});if(quickOpts)quick(quickOpts);res()},wait)}));return q}
+function quick(opts){const w=document.createElement("div");w.className="quick";
+  opts.forEach(o=>{let b;
+    if(o.href){b=document.createElement("a");b.href=o.href;if(!/^tel:|^mailto:/.test(o.href)){b.target="_blank";b.rel="noopener"}b.addEventListener("click",()=>{if(o.after)setTimeout(o.after,400)})}
+    else{b=document.createElement("button");b.type="button";b.addEventListener("click",()=>{w.remove();me(o.label);o.go()})}
+    b.textContent=o.label;if(o.primary)b.className="primary";if(o.wa)b.classList.add("wa");w.appendChild(b)});
+  log.appendChild(w);log.scrollTop=log.scrollHeight}
+function clearQuick(){log.querySelectorAll(".quick").forEach(x=>x.remove())}
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+const telQ={label:"Call "+CONFIG.phoneDisplay,href:"tel:+15716743082"},waQ=()=>({label:"WhatsApp us",href:waLink("Hello Next Level Improvement, I have a question about a project."),wa:true});
+const MENU=()=>[{label:"Get an estimate",primary:true,go:()=>startFlow()},{label:"Our services",go:()=>answer("services")},{label:"Service area",go:()=>answer("area")},{label:"Talk to a person",go:()=>answer("human")}];
+
+/* understanding */
+const SVC={Kitchen:/kitchen|cabinet|countertop|backsplash|island/i,Bathroom:/bath|shower|\btub\b|vanity|toilet/i,Flooring:/floor|hardwood|\blvp\b|vinyl|laminate|carpet/i,Painting:/paint|repaint|colou?r|drywall/i};
+function findService(t){for(const k in SVC)if(SVC[k].test(t))return k;return null}
+const INFO={
+  Kitchen:"Kitchen remodeling is one of our core services: cabinets and refacing, countertops, backsplash and tile, sinks and fixtures, and layout updates.",
+  Bathroom:"We remodel bathrooms from quick refreshes to full rebuilds: showers and tubs, tub-to-shower conversions, vanities, wall and floor tile, and fixtures.",
+  Flooring:"We install hardwood, luxury vinyl plank, laminate and tile, including old floor removal, subfloor preparation, baseboards and transitions.",
+  Painting:"We paint interiors and exteriors: walls, ceilings, trim, doors and cabinets, with careful prep, drywall patching and color guidance.",
+  Other:"Tell us a bit about it and our team will let you know how we can help."};
+const INTENTS=[
+  ["human",/\b(human|person|someone|agent|representative|talk to|speak (to|with)|call me|owner)\b/i],
+  ["whatsapp",/whats ?app/i],
+  ["estimate",/estimate|quote|book|appointment|schedule|consult|site visit|come (out|over)|get started|start (a|my|the) project|hire you|need (a|some) work/i],
+  ["price",/price|cost|how much|budget|expensive|cheap|afford|\brate|charge|fee/i],
+  ["time",/how long|duration|timeline|take to|when can you start|availability|available|how soon/i],
+  ["area",/area|serve|location|located|where are you|travel|near me|do you (work|come)|zip code/i],
+  ["process",/process|how does (it|this) work|how do you work|steps|what happens/i],
+  ["license",/licen[cs]|insur|bonded|certif/i],
+  ["warranty",/warrant|guarantee/i],
+  ["finance",/financ|payment plan|installment|pay monthly|credit card|payment/i],
+  ["materials",/material|brand|sample|choose|selection|design|style|ideas?/i],
+  ["hours",/hours|open|closed|weekend|saturday|sunday|holiday/i],
+  ["contact",/contact|phone|number|e-?mail|reach you|address/i],
+  ["services",/services|what do you do|what can you do|offer|specialize|what kind of work/i],
+  ["thanks",/thank|thx|appreciate|great job|awesome/i],
+  ["bye",/\b(bye|goodbye|see you|that'?s all|nothing else)\b/i],
+  ["greet",/^(hi|hello|hey|good (morning|afternoon|evening)|hiya|greetings)\b/i],
+  ["yes",/^(yes|yeah|yep|sure|ok(ay)?|please|sounds good|let'?s (do it|go)|go ahead|of course|absolutely)\b/i],
+  ["no",/^(no|nope|not now|later|no thanks|nah)\b/i]];
+function intent(t){for(const [k,re] of INTENTS)if(re.test(t))return k;return null}
+const RE_PHONE=/(\+?1[\s.-]?)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}/,RE_EMAIL=/[^\s@]+@[^\s@]+\.[a-z]{2,}/i;
+function parseTimeline(t){if(/asap|as soon|urgent|right away|immediately|this week|now\b/i.test(t))return "As soon as possible";
+  if(/next month|1\s*-\s*3|one to three|couple (of )?months|few weeks|weeks/i.test(t))return "In 1–3 months";
+  if(/3\s*-\s*6|three to six|six months|later this year|few months|months/i.test(t))return "In 3–6 months";
+  if(/just (looking|planning|browsing)|not sure|someday|no rush|planning/i.test(t))return "Just planning";return null}
+function parseScope(t,svc){if(svc==="Painting"){if(/both|inside and out/i.test(t))return "Interior & exterior";if(/exterior|outside/i.test(t))return "Exterior";if(/interior|inside|room/i.test(t))return "Interior"}
+  if(/full|complete|gut|entire|whole|total/i.test(t))return "Full remodel";if(/partial|update|refresh|small|minor|just (the|a)/i.test(t))return "Partial update";if(/not sure|don'?t know/i.test(t))return "Not sure yet";return null}
+function extract(t){const L=A.lead;let rest=t;
+  const ph=t.match(RE_PHONE);if(ph){const d=digits(ph[0]);if(d.length===10||(d.length===11&&d[0]==="1")){L.phone=ph[0].trim();rest=rest.replace(ph[0]," ")}}
+  const em=t.match(RE_EMAIL);if(em){L.email=em[0];rest=rest.replace(em[0]," ")}
+  const z=rest.match(/\b\d{5}\b/);if(z&&!L.zip)L.zip=z[0];
+  const sv=findService(t);if(sv&&!L.service)L.service=sv;
+  const tl=parseTimeline(t);if(tl&&!L.timeline)L.timeline=tl;
+  if(L.service&&!L.scope){const sc=parseScope(t,L.service);if(sc)L.scope=sc}
+  const nm=t.match(/\b(?:my name is|i am|i'?m|this is)\s+([a-z][a-z'-]+(?:\s+[a-z][a-z'-]+)?)/i);if(nm&&!/interested|looking|planning|not|just/i.test(nm[1])&&!L.name)L.name=cap(nm[1])}
+const cap=s=>s.replace(/\b\w/g,c=>c.toUpperCase());
+
+/* answers */
+function answer(k,extra){const L=A.lead;switch(k){
+  case "greet":return bot(pick(["Hello! How can I help with your home project today?","Hi there! What are you planning for your home?"]),MENU());
+  case "services":return bot("We focus on four services: <b>kitchen remodeling</b>, <b>bathroom remodeling</b>, <b>flooring</b> and <b>house painting</b>. Which one are you interested in?",
+      ["Kitchen","Bathroom","Flooring","Painting"].map(x=>({label:x,go:()=>svcInfo(x)})));
+  case "price":A.offer=()=>startFlow();return bot("Every home is different, so we don’t quote prices without seeing the space. After a short visit you receive a clear <b>written estimate</b> with materials, labor and schedule. Would you like to request one?",[{label:"Yes, request an estimate",primary:true,go:()=>startFlow()},{label:"Another question",go:()=>more()}]);
+  case "time":A.offer=()=>startFlow();return bot("It depends on the size of the job and the materials. Painting and flooring usually move faster than a full kitchen or bathroom remodel. You get a schedule together with your estimate, so you know what to expect before work begins.",[{label:"Request an estimate",primary:true,go:()=>startFlow()},{label:"Another question",go:()=>more()}]);
+  case "area":return bot(L.zip?("We’re based in <b>Centreville, Virginia</b> and work in the surrounding areas. I’ve noted ZIP <b>"+escHTML(L.zip)+"</b> and our team will confirm."):"We’re based in <b>Centreville, Virginia</b> and work in the surrounding areas. Send me your ZIP code and the team will confirm.",[{label:"Request an estimate",primary:true,go:()=>startFlow()},{label:"Another question",go:()=>more()}]);
+  case "process":A.offer=()=>startFlow();return bot("Here’s how it works:<br>1. A short call about your project<br>2. An on-site visit to measure and discuss options<br>3. A clear written estimate and schedule<br>4. We build, keep you updated, and walk the finished job with you",[{label:"Let’s start",primary:true,go:()=>startFlow()},{label:"Another question",go:()=>more()}]);
+  case "license":case "warranty":case "finance":return bot("That’s a great question for our team, and they’ll give you the exact details. You can reach them directly:",[telQ,waQ(),{label:"Leave my details",go:()=>startFlow()}]);
+  case "materials":return bot("We help you choose cabinets, countertops, tile, flooring and paint colors that fit your style and budget. This is part of the design and estimate step.",[{label:"Request an estimate",primary:true,go:()=>startFlow()},{label:"Another question",go:()=>more()}]);
+  case "hours":return bot("You can call or message us on WhatsApp anytime, and we’ll get back to you as soon as possible.",[telQ,waQ()]);
+  case "contact":return bot("You can reach us at:<br>Phone: <a href=\"tel:+15716743082\">"+CONFIG.phoneDisplay+"</a><br>WhatsApp: <a href=\""+waLink("Hello Next Level Improvement")+"\" target=\"_blank\" rel=\"noopener\">"+CONFIG.phoneDisplay+"</a><br>Email: <a href=\"mailto:"+CONFIG.email+"\">"+CONFIG.email+"</a><br>Based in Centreville, VA",[telQ,waQ()]);
+  case "human":case "whatsapp":return bot("Of course! You can talk to our team directly, or leave your details and we’ll contact you.",[waQ(),telQ,{label:"Leave my details",go:()=>startFlow()}]);
+  case "thanks":return bot(pick(["You’re welcome! Anything else I can help with?","Happy to help! Anything else?"]),MENU());
+  case "bye":return bot("Thanks for stopping by. We’d love to help take your home to the next level!");
+}}
+function svcInfo(x){A.lead.service=A.lead.service||x;A.offer=()=>startFlow(x);
+  bot(INFO[x]+" Would you like an estimate for your "+x.toLowerCase()+" project?",[{label:"Yes, get an estimate",primary:true,go:()=>startFlow(x)},{label:"Another question",go:()=>more()}])}
+function more(){bot("Sure, what would you like to know?",[{label:"Prices",go:()=>answer("price")},{label:"How long it takes",go:()=>answer("time")},{label:"Our process",go:()=>answer("process")},{label:"Service area",go:()=>answer("area")},{label:"Talk to a person",go:()=>answer("human")}])}
+function greet(){bot("Hi! I’m the <b>Next Level assistant</b>. I can answer questions about our kitchen, bathroom, flooring and painting work, or help you request an estimate in about a minute.",MENU())}
+
+/* estimate flow */
+function startFlow(svc){if(svc)A.lead.service=svc;A.offer=null;nextStep()}
+function nextStep(){const L=A.lead;
+  if(!L.service){A.await="service";return bot("Which project are you planning?",["Kitchen","Bathroom","Flooring","Painting"].map(x=>({label:x,go:()=>{L.service=x;ack()}})).concat([{label:"Something else",go:()=>{L.service="Other";A.await="details";bot("Briefly, what would you like done?")}}]))}
+  if(L.service==="Other"&&!L.details){A.await="details";return bot("Briefly, what would you like done?")}
+  if(!L.scope&&(L.service==="Kitchen"||L.service==="Bathroom")){A.await="scope";return bot("Are you thinking of a full remodel or a partial update?",["Full remodel","Partial update","Not sure yet"].map(x=>({label:x,go:()=>{L.scope=x;ack()}})))}
+  if(!L.scope&&L.service==="Painting"){A.await="scope";return bot("Is the painting inside, outside, or both?",["Interior","Exterior","Interior & exterior"].map(x=>({label:x,go:()=>{L.scope=x;ack()}})))}
+  if(!L.timeline){A.await="timeline";return bot("When would you like to start?",["As soon as possible","In 1–3 months","In 3–6 months","Just planning"].map(x=>({label:x,go:()=>{L.timeline=x;ack()}})))}
+  if(!L.zip){A.await="zip";chatText.placeholder="5-digit ZIP, e.g. 20120";return bot("What’s the ZIP code of the property?")}
+  if(!L.name){A.await="name";chatText.placeholder="Your name";return bot("And your name?")}
+  if(!L.phone){A.await="phone";chatText.placeholder="(571) 555-0123";return bot("Nice to meet you, "+escHTML(L.name.split(" ")[0])+". What’s the best phone number to reach you?")}
+  A.await=null;chatText.placeholder="Type a message…";summary()}
+function ack(){bot(pick(["Got it.","Great.","Perfect.","Thanks!"])).then(nextStep)}
+function leadText(){const L=A.lead;return ["Hello Next Level Improvement, I’d like an estimate.",
+  "Service: "+L.service+(L.scope?" ("+L.scope+")":""),L.details&&("Details: "+L.details),"Start: "+L.timeline,"ZIP: "+L.zip,"Name: "+L.name,"Phone: "+L.phone,L.email&&("Email: "+L.email)].filter(Boolean).join("\n")}
+function summary(){const L=A.lead,txt=leadText();
+  const html="Here’s your request:<br>• Service: "+escHTML(L.service+(L.scope?" ("+L.scope+")":""))+(L.details?"<br>• Details: "+escHTML(L.details):"")+"<br>• Start: "+escHTML(L.timeline)+"<br>• ZIP: "+escHTML(L.zip)+"<br>• Name: "+escHTML(L.name)+"<br>• Phone: "+escHTML(L.phone)+"<br><br>Send it to our team on WhatsApp and we’ll get back to you shortly.";
+  const opts=[{label:"Send via WhatsApp",href:waLink(txt),primary:true,wa:true,after:()=>{bot("Thanks, "+escHTML(L.name.split(" ")[0])+"! Just press <b>Send</b> in WhatsApp and our team will contact you soon.");if(CONFIG.formEndpoint)fetch(CONFIG.formEndpoint,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({...L,source:"assistant"})}).catch(()=>{})}},
+    {label:"Send by email",href:"mailto:"+CONFIG.email+"?subject="+encodeURIComponent("Estimate request from "+L.name)+"&body="+encodeURIComponent(txt)},
+    {label:"Use the contact form",go:toForm},{label:"Change something",go:editMenu}];
+  bot(html,opts)}
+function editMenu(){bot("What would you like to change?",[["service","Service"],["timeline","Start date"],["zip","ZIP code"],["name","Name"],["phone","Phone"]].map(([k,l])=>({label:l,go:()=>{delete A.lead[k];if(k==="service"){delete A.lead.scope;delete A.lead.details}nextStep()}})))}
+function toForm(){const L=A.lead,n=(L.name||"").trim().split(/\s+/);
+  document.getElementById("c-first").value=n[0]||"";document.getElementById("c-last").value=n.slice(1).join(" ");document.getElementById("c-phone").value=L.phone||"";if(L.email)document.getElementById("c-email").value=L.email;
+  if(L.service)document.getElementById("c-service").value=L.service;
+  document.getElementById("c-msg").value=[L.scope&&"Scope: "+L.scope,L.timeline&&"Start: "+L.timeline,L.zip&&"ZIP: "+L.zip,L.details].filter(Boolean).join("\n");
+  toggleChat(false);location.hash="contact";setTimeout(()=>document.getElementById("c-email").focus(),400)}
+
+/* fill an awaited field from free text */
+function fill(t){const L=A.lead,f=A.await;
+  if(f==="service"){const sv=findService(t);if(sv){L.service=sv;return true}if(/other|else/i.test(t)){L.service="Other";return true}return false}
+  if(f==="details"){if(t.length>2){L.details=t;return true}return false}
+  if(f==="scope"){const sc=parseScope(t,L.service);if(sc){L.scope=sc;return true}return false}
+  if(f==="timeline"){const tl=parseTimeline(t);if(tl){L.timeline=tl;return true}return false}
+  if(f==="zip"){const z=t.match(/\b\d{5}\b/);if(z){L.zip=z[0];return true}return false}
+  if(f==="name"){let n=t.replace(/^(my name is|i am|i'?m|this is|it'?s|name:?)\s*/i,"").replace(/[^a-z\s'-]/gi,"").trim();if(/[a-z]{2,}/i.test(n)&&n.split(/\s+/).length<=4&&!intent(t)){L.name=cap(n.slice(0,40));return true}return false}
+  if(f==="phone"){const m=t.match(RE_PHONE);if(m){const d=digits(m[0]);if(d.length===10||(d.length===11&&d[0]==="1")){L.phone=m[0].trim();return true}}return false}
+  return false}
+const REASK={zip:"Please send the 5-digit ZIP code of the property, for example 20120.",name:"What name should we use?",phone:"Please send a 10-digit US phone number, for example (571) 555-0123.",details:"Just a few words about the project is enough.",timeline:"When would you like to start? For example: as soon as possible, in a few months, or just planning.",scope:"Is it a full remodel or a partial update?",service:"Which project is it: kitchen, bathroom, flooring or painting?"};
+
+async function askAI(t){if(!CONFIG.aiEndpoint)return false;
+  const ty=addMsg('<span class="dots"><i></i><i></i><i></i></span>',"bot typing");
+  try{const r=await fetch(CONFIG.aiEndpoint,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({messages:A.hist.slice(-12),lead:A.lead})});
+    const j=await r.json();ty.remove();if(j&&j.reply){addMsg(escHTML(j.reply).replace(/\n/g,"<br>"),"bot");A.hist.push({role:"assistant",content:j.reply});return true}}catch(e){ty.remove()}
+  return false}
+
+async function handle(t){
+  const it=intent(t);
+  if(A.await){
+    if(fill(t)){const f=A.await;A.await=null;extract(t);if(f==="phone"||f==="zip"||f==="name")return nextStep();return ack()}
+    extract(t);
+    if(it&&!["yes","no","greet","thanks"].includes(it)){await answer(it);return bot("Back to your estimate: "+REASK[A.await])}
+    return bot(REASK[A.await])}
+  const before=JSON.stringify(A.lead);extract(t);const gotNew=before!==JSON.stringify(A.lead);
+  if(it==="yes"&&A.offer){const o=A.offer;A.offer=null;return o()}
+  if(it==="no"){A.offer=null;return bot("No problem. Is there anything else I can help with?",MENU())}
+  if(it==="estimate")return startFlow(findService(t));
+  const sv=findService(t);
+  if(it&&it!=="yes")return answer(it);
+  if(sv)return svcInfo(sv);
+  if(gotNew&&(A.lead.phone||A.lead.zip))return bot("Thanks, I’ve noted that. Shall we put together your estimate request?",[{label:"Yes",primary:true,go:()=>startFlow()},{label:"Not now",go:()=>more()}]);
+  if(await askAI(t))return;
+  bot("I’m not sure I understood that, sorry. I can help with prices, timelines, our process and service area, or set up an estimate. You can also message our team directly.",MENU().concat([waQ()]))}
+document.getElementById("chatForm").addEventListener("submit",e=>{e.preventDefault();const t=chatText.value.trim();if(!t)return;chatText.value="";clearQuick();me(t);handle(t)});
+
+route();document.getElementById("yr").textContent=new Date().getFullYear();
+</script>
+
+<script>
+/* ===== Motion & 3D layer ===== */
+(function(){
+const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const hasG=!!(window.gsap&&window.ScrollTrigger);
+const fine=matchMedia("(hover:hover) and (pointer:fine)").matches;
+if(hasG)gsap.registerPlugin(ScrollTrigger);
+const bar=document.querySelector(".progress");
+function onScroll(){const h=document.documentElement.scrollHeight-innerHeight;bar.style.transform="scaleX("+(h>0?Math.min(1,scrollY/h):0)+")"}
+addEventListener("scroll",onScroll,{passive:true});
+
+/* smooth scrolling */
+if(!reduce&&window.Lenis){
+  try{lenis=new Lenis({duration:1.15,smoothWheel:true});
+    if(hasG){lenis.on("scroll",ScrollTrigger.update);gsap.ticker.add(t=>lenis.raf(t*1000))}
+    else{const raf=t=>{lenis.raf(t);requestAnimationFrame(raf)};requestAnimationFrame(raf)}
+    lenis.on("scroll",onScroll);
+    const chatEl=document.getElementById("chat");
+    new MutationObserver(()=>{chatEl.classList.contains("open")&&innerWidth<520?lenis.stop():lenis.start()}).observe(chatEl,{attributes:true,attributeFilter:["class"]});
+  }catch(e){lenis=null}
+}
+
+
+/* ===== Intro: logo builds, slogan, stair-step reveal (about 3s) ===== */
+const introDone=new Promise(res=>{
+  const el=document.getElementById("intro");
+  if(!el){window.__introRunning=false;return res()}
+  const finish=()=>{if(!window.__introRunning)return;window.__introRunning=false;el.remove();document.documentElement.classList.remove("intro-on");if(lenis)lenis.start();res()};
+  if(lenis)lenis.stop();
+  const word=el.querySelector(".i-word");word.innerHTML=[...word.textContent].map(c=>"<span>"+(c===" "?"&nbsp;":c)+"</span>").join("");
+  if(reduce){el.style.transition="opacity .4s";setTimeout(()=>{el.style.opacity=0;setTimeout(finish,400)},600);return}
+  if(!hasG){el.classList.add("nogsap");setTimeout(()=>{el.style.transition="opacity .5s";el.style.opacity=0;setTimeout(finish,500)},2400);return}
+  const q=s=>el.querySelectorAll(s),svg=el.querySelector(".i-mark"),cv=el.querySelector(".i-fx"),ctx=cv.getContext("2d");
+  const mr=svg.getBoundingClientRect();el.style.setProperty("--gy",(mr.top+mr.height*.44)+"px");
+  /* canvas layer for the glowing pen and sparks (much lighter than animating SVG nodes) */
+  const dpr=Math.min(devicePixelRatio||1,2),cr=cv.getBoundingClientRect();cv.width=cr.width*dpr;cv.height=cr.height*dpr;
+  const sc=(mr.width/200)*dpr,ox=(mr.left-cr.left)*dpr,oy=(mr.top-cr.top)*dpr,P=(x,y)=>[ox+x*sc,oy+y*sc];
+  const parts=[],pen={x:0,y:0,a:0,r:1};
+  function burst(x,y,n,spd,big){for(let i=0;i<n;i++){const a=Math.random()*Math.PI*2,v=spd*(.3+Math.random()*.7);parts.push({x,y,vx:Math.cos(a)*v,vy:Math.sin(a)*v-(big?0:.2),life:1,dec:.022+Math.random()*.03,r:(big?1.6:1)+Math.random()*(big?1.8:1)})}}
+  function draw(){ctx.clearRect(0,0,cv.width,cv.height);ctx.globalCompositeOperation="lighter";
+    for(let i=parts.length-1;i>=0;i--){const p=parts[i];p.x+=p.vx*dpr;p.y+=p.vy*dpr;p.vy+=.03;p.vx*=.97;p.life-=p.dec;if(p.life<=0){parts.splice(i,1);continue}
+      ctx.globalAlpha=p.life;ctx.fillStyle="#F6DFA6";ctx.beginPath();ctx.arc(p.x,p.y,p.r*dpr,0,6.283);ctx.fill()}
+    if(pen.a>0){const R=9*pen.r*dpr,g=ctx.createRadialGradient(pen.x,pen.y,0,pen.x,pen.y,R);g.addColorStop(0,"rgba(255,248,230,"+pen.a+")");g.addColorStop(.35,"rgba(246,223,166,"+(pen.a*.7)+")");g.addColorStop(1,"rgba(246,223,166,0)");ctx.globalAlpha=1;ctx.fillStyle=g;ctx.beginPath();ctx.arc(pen.x,pen.y,R,0,6.283);ctx.fill()}
+    ctx.globalAlpha=1;ctx.globalCompositeOperation="source-over"}
+  gsap.ticker.add(draw);
+  /* pre-sample each path so the pen never queries geometry during animation */
+  function samples(path,n){const L=path.getTotalLength(),pts=[];for(let i=0;i<=n;i++){const p=path.getPointAtLength(L*i/n);pts.push(P(p.x,p.y))}return pts}
+  const tl=gsap.timeline({paused:true,onComplete:()=>{gsap.ticker.remove(draw);finish()}});
+  function trace(cls,dur,ease,at,marks){const path=el.querySelector(cls),pts=samples(path,140),o={p:0},hit=new Set();let last=0;
+    tl.to(o,{p:1,duration:dur,ease,onStart:()=>{pen.a=1},onUpdate:()=>{
+      path.style.strokeDashoffset=1-o.p;const i=Math.round(o.p*140),pt=pts[i];pen.x=pt[0];pen.y=pt[1];
+      if(i-last>=3){last=i;burst(pt[0],pt[1],2,1.1,false)}
+      if(marks)for(const m of marks)if(o.p>=m&&!hit.has(m)){hit.add(m);burst(pt[0],pt[1],18,3.2,true)}}},at)}
+  tl.to(q(".i-grid"),{opacity:1,duration:.4,ease:"power1.out"},0)
+    .to(q(".gh"),{scaleX:1,duration:.5,ease:"power3.out"},0)
+    .to(q(".gv"),{scaleY:1,duration:.5,ease:"power3.out"},.08);
+  trace(".p-ground",.32,"power1.inOut",.15);
+  trace(".p-house",.68,"power1.inOut",.45,[.5]);
+  trace(".p-stairs",.55,"power1.in",1.1,[.27,.57,.86,.999]);
+  tl.to(pen,{a:0,r:2.2,duration:.35,ease:"power2.out"},1.66)
+    .fromTo(q(".i-halo"),{opacity:0,scale:.6},{opacity:1,scale:1,duration:.35,ease:"power2.out"},1.62)
+    .to(q(".i-halo"),{opacity:.35,scale:1.15,duration:.6,ease:"power2.inOut"},1.97)
+    .to(q(".i-guides i"),{opacity:0,duration:.5},1.6)
+    .fromTo(q(".i-word span"),{opacity:0,y:30,rotationX:-90,transformPerspective:600},{opacity:1,y:0,rotationX:0,duration:.6,stagger:.035,ease:"back.out(1.6)"},1.3)
+    .to(q(".i-rule i"),{scaleX:1,duration:.5,ease:"power3.out"},1.8)
+    .to(q(".i-rule b"),{scale:1,rotation:225,duration:.5,ease:"back.out(2)"},1.85)
+    .fromTo(q(".i-sub"),{opacity:0,scaleX:1.35},{opacity:1,scaleX:1,duration:.6,ease:"power3.out"},1.9)
+    .fromTo(q(".i-slogan"),{opacity:0,y:14},{opacity:1,y:0,duration:.5,ease:"power2.out"},2.15)
+    .fromTo(q(".i-shine"),{opacity:1,x:0},{x:"520%",duration:.75,ease:"power2.inOut"},2.25)
+    .to(q(".i-grid"),{opacity:0,duration:.4},2.5)
+    .to(q(".i-inner"),{y:-40,opacity:0,scale:.96,duration:.45,ease:"power2.in"},2.9)
+    .to(q(".i-glow"),{opacity:0,duration:.4},2.95)
+    .to(q(".i-steps span"),{yPercent:-100,duration:.6,ease:"power3.inOut",stagger:.07},2.95)
+    .to(q(".i-skip"),{opacity:0,duration:.2},2.9);
+  el.querySelector(".i-skip").addEventListener("click",()=>{tl.play();tl.progress(.83).timeScale(2.2)});
+  /* start once the headline font is ready (or after 600ms) and two calm frames have passed */
+  const fontReady=document.fonts&&document.fonts.load?Promise.race([document.fonts.load('600 40px "Cormorant Garamond"'),new Promise(r=>setTimeout(r,600))]):Promise.resolve();
+  fontReady.then(()=>requestAnimationFrame(()=>requestAnimationFrame(()=>tl.play())));
+});
+introDone.then(()=>{if(hasG)gsap.ticker.lagSmoothing(0)});
+
+/* hero headline split into letters */
+document.querySelectorAll(".hero h1").forEach(h=>{
+  const t=h.textContent.trim();h.setAttribute("aria-label",t);
+  h.innerHTML=t.split(" ").map(w=>'<span class="split-word" aria-hidden="true">'+[...w].map(c=>'<span class="char">'+c+'</span>').join("")+'</span>').join(" ");
+});
+function heroIntro(hero){
+  if(!hasG||reduce||hero.dataset.intro)return;hero.dataset.intro=1;
+  const tl=gsap.timeline({paused:!!window.__introRunning,defaults:{ease:"power4.out"}});introDone.then(()=>tl.play());
+  tl.from(hero.querySelectorAll(".char"),{yPercent:115,rotateX:-75,opacity:0,duration:1.1,stagger:.03})
+    .from(hero.querySelectorAll(".t-sub"),{y:24,opacity:0,duration:.8},"-=.7")
+    .from(hero.querySelectorAll(".rule"),{scaleX:0,duration:.8},"-=.6")
+    .from(hero.querySelectorAll(".inner > p:not(.t-sub), .btn-row > *"),{y:26,opacity:0,duration:.8,stagger:.1},"-=.6");
+}
+/* hero parallax: scroll + pointer */
+function heroFx(hero){
+  if(!hasG||reduce||hero.dataset.fx)return;hero.dataset.fx=1;
+  const inner=hero.querySelector(".inner"),bg=hero.querySelector(".ph");
+  gsap.to(inner,{y:140,opacity:.15,ease:"none",scrollTrigger:{trigger:hero,start:"top top",end:"bottom top",scrub:true}});
+  gsap.fromTo(bg,{backgroundPosition:"50% 40%"},{backgroundPosition:"50% 75%",ease:"none",scrollTrigger:{trigger:hero,start:"top top",end:"bottom top",scrub:true}});
+  if(fine){const rx=gsap.quickTo(inner,"rotationX",{duration:.8,ease:"power3"}),ry=gsap.quickTo(inner,"rotationY",{duration:.8,ease:"power3"});
+    hero.addEventListener("pointermove",e=>{const r=hero.getBoundingClientRect();ry(((e.clientX-r.left)/r.width-.5)*10);rx(-((e.clientY-r.top)/r.height-.5)*7)});
+    hero.addEventListener("pointerleave",()=>{rx(0);ry(0)})}
+}
+
+/* 3D tilt + glare on cards */
+if(fine&&!reduce){document.querySelectorAll(".svc-card,.glass").forEach(el=>{
+  el.classList.add("tilt");const g=document.createElement("span");g.className="glare";el.appendChild(g);
+  el.addEventListener("pointermove",e=>{const r=el.getBoundingClientRect(),x=(e.clientX-r.left)/r.width,y=(e.clientY-r.top)/r.height;
+    el.style.transform="perspective(900px) rotateX("+((.5-y)*10).toFixed(2)+"deg) rotateY("+((x-.5)*12).toFixed(2)+"deg) translateZ(6px)";
+    el.style.setProperty("--gx",(x*100)+"%");el.style.setProperty("--gy",(y*100)+"%")});
+  el.addEventListener("pointerleave",()=>{el.style.transform=""});
+})}
+
+
+/* cursor glow in services section */
+document.querySelectorAll(".svc-glow").forEach(sec=>{
+  const g=sec.querySelector(".glow-cursor");if(!g||!fine||reduce)return;
+  let x=0,y=0,tx=0,ty=0,raf=0;
+  const loop=()=>{x+=(tx-x)*.12;y+=(ty-y)*.12;g.style.transform="translate3d("+x+"px,"+y+"px,0)";raf=(Math.abs(tx-x)+Math.abs(ty-y)>.5)?requestAnimationFrame(loop):0};
+  sec.addEventListener("pointermove",e=>{const r=sec.getBoundingClientRect();tx=e.clientX-r.left;ty=e.clientY-r.top;if(!raf)raf=requestAnimationFrame(loop)});
+  sec.addEventListener("pointerenter",e=>{const r=sec.getBoundingClientRect();x=tx=e.clientX-r.left;y=ty=e.clientY-r.top});
+});
+
+/* per-view scroll reveals and image parallax */
+const inited=new Set();
+const REVEAL=".t-title,.t-sub,.rule,.center-copy p,.svc-card,.glass,.checker .cell,.svc-detail .txt > *,.circle,.steps4 > div,.big-logo,.split .right > *,.area-box,.contact-top .info > *,.contact-top form,.band .btn-row,.foot h2,.foot .info,.foot form";
+function initView(v){
+  const view=document.querySelector('.view[data-view="'+v+'"]');if(!view)return;
+  view.querySelectorAll(".hero").forEach(h=>{heroIntro(h);heroFx(h)});
+  if(v==="home")init3D();
+  if(!hasG||reduce)return;
+  if(!inited.has(v)){inited.add(v);
+    const els=[...view.querySelectorAll(REVEAL)].filter(e=>!e.closest(".hero")&&!e.closest(".build3d"));
+    ScrollTrigger.batch(els,{start:"top 90%",once:true,onEnter:b=>gsap.fromTo(b,{y:50,opacity:0,rotationX:10,transformPerspective:900},{y:0,opacity:1,rotationX:0,duration:1,ease:"power3.out",stagger:.09,clearProps:"transform,opacity"})});
+    view.querySelectorAll(".band > .ph").forEach(el=>{
+      gsap.fromTo(el,{backgroundPosition:"50% 35%"},{backgroundPosition:"50% 65%",ease:"none",scrollTrigger:{trigger:el,start:"top bottom",end:"bottom top",scrub:true}})});
+  }
+  ScrollTrigger.refresh();
+}
+/* footer reveal once */
+if(hasG&&!reduce){const f=[...document.querySelectorAll(".foot h2,.foot .info,.foot form")];
+  ScrollTrigger.batch(f,{start:"top 92%",once:true,onEnter:b=>gsap.fromTo(b,{y:40,opacity:0},{y:0,opacity:1,duration:.9,stagger:.12,ease:"power3.out",clearProps:"transform,opacity"})})}
+
+window.onRoute=function(v){
+  if(hasG&&!reduce)gsap.fromTo('.view[data-view="'+v+'"]',{opacity:0},{opacity:1,duration:.55,ease:"power2.out",clearProps:"opacity"});
+  requestAnimationFrame(()=>initView(v));
+};
+
+/* ===== 3D: blueprint to finished home ===== */
+function init3D(){
+  const wrap=document.getElementById("houseCanvasWrap");if(!wrap||wrap.dataset.ok)return;wrap.dataset.ok=1;
+  if(!window.THREE){wrap.style.background="url('img/plans.jpg') center/cover";return}
+  const T=THREE,clamp=T.MathUtils.clamp;
+  let renderer;try{renderer=new T.WebGLRenderer({antialias:true,alpha:true})}catch(e){wrap.style.background="url('img/plans.jpg') center/cover";return}
+  renderer.setPixelRatio(Math.min(devicePixelRatio,1.75));
+  if(renderer.outputEncoding!==undefined)renderer.outputEncoding=T.sRGBEncoding;
+  wrap.appendChild(renderer.domElement);
+  const scene=new T.Scene(),camera=new T.PerspectiveCamera(30,1,.1,200);
+  scene.add(new T.HemisphereLight(0xe4ecff,0x18224a,.55));
+  const sun=new T.DirectionalLight(0xfff4e0,1.15);sun.position.set(9,14,11);scene.add(sun);
+  const fillL=new T.DirectionalLight(0x9fc3ff,.35);fillL.position.set(-10,6,-6);scene.add(fillL);
+  const house=new T.Group();house.position.x=-.9;scene.add(house);
+  const std=(c,o)=>new T.MeshStandardMaterial(Object.assign({color:c,roughness:.8,metalness:0,transparent:true,opacity:0},o||{}));
+  const M={siding:0xEEF1F5,roof:0x161D33,glass:0x9EC2E6,trim:0xFFFFFF,door:0x1F2F6B,slab:0xC9CED6,brick:0x8E5B4B,garage:0xE7EAEF};
+  const parts=[];
+  function add(g,c,x,y,z,o){const m=new T.Mesh(g,std(c,o));m.position.set(x,y,z);house.add(m);parts.push(m);return m}
+  function prism(w,h,len){const sh=new T.Shape();sh.moveTo(-w/2,0);sh.lineTo(w/2,0);sh.lineTo(0,h);sh.lineTo(-w/2,0);const g=new T.ExtrudeGeometry(sh,{depth:len,bevelEnabled:false});g.translate(0,0,-len/2);g.rotateY(Math.PI/2);return g}
+  const B=(w,h,d)=>new T.BoxGeometry(w,h,d);
+  add(B(3.6,.16,1.5),M.slab,0,.08,2.75);
+  add(B(6,3.4,4),M.siding,0,1.7,0);
+  add(B(3,2.6,3.6),M.garage,4.5,1.3,.2);
+  add(prism(4.6,1.9,6.6),M.roof,0,3.4,0,{roughness:.65});
+  add(prism(4.0,1.15,3.3),M.roof,4.5,2.6,.2,{roughness:.65});
+  add(B(.6,2.1,.6),M.brick,-2,4.3,-.6);
+  [-1.65,-.55,.55,1.65].forEach(x=>add(new T.CylinderGeometry(.08,.08,2.3,12),M.trim,x,1.3,3.35));
+  add(B(3.8,.14,1.7),M.trim,0,2.5,2.75);
+  add(B(.9,1.9,.06),M.door,0,.95,2.02);
+  [[-1.9,1.25],[1.9,1.25]].forEach(([x,y])=>add(B(.85,1.05,.06),M.glass,x,y,2.02,{roughness:.15,metalness:.4,emissive:0x1b2d55,emissiveIntensity:.4}));
+  [-1.9,0,1.9].forEach(x=>add(B(.8,.9,.06),M.glass,x,2.75,2.02,{roughness:.15,metalness:.4,emissive:0x1b2d55,emissiveIntensity:.4}));
+  add(B(.06,1,.8),M.glass,-3.02,2.4,0,{roughness:.15,metalness:.4,emissive:0x1b2d55,emissiveIntensity:.4});
+  add(B(2.3,1.9,.06),M.trim,4.5,.95,2.02);
+  /* assembly: where each part flies in from, and in what order it lands */
+  const FLY=[ // [seq, dx,dy,dz, rx,rz]
+    [2, 0,0,16, 0,0],      // porch slab slides in from the front
+    [0, 0,18,0, .25,0],    // main walls lowered from above
+    [1, 18,0,0, 0,-.2],    // garage slides in from the right
+    [8, 0,20,0, 0,.35],    // main roof drops on
+    [9, 2,16,0, 0,-.3],    // garage roof
+    [10,0,20,0, 0,0],      // chimney
+    [3, 0,14,0, 0,0],[4,0,14,0,0,0],[5,0,14,0,0,0],[6,0,14,0,0,0], // columns
+    [7, 0,10,8, .2,0],     // porch roof
+    [11,0,0,14, 0,0],      // front door
+    [12,0,0,14,0,0],[13,0,0,14,0,0], // lower windows
+    [14,0,0,14,0,0],[15,0,0,14,0,0],[16,0,0,14,0,0], // upper windows
+    [17,-14,0,0,0,0],      // side window
+    [18,0,0,14,0,0]        // garage door
+  ];
+  parts.forEach((m,i)=>{const f=FLY[i]||[i,0,15,0,0,0];m.userData={seq:f[0],base:m.position.clone(),off:new T.Vector3(f[1],f[2],f[3]),rx:f[4],rz:f[5]};
+    const mt=m.material;mt.transparent=false;mt.opacity=1;mt.depthWrite=true;mt.needsUpdate=true;m.visible=false});
+  const NP=parts.length,easeBack=k=>{const c1=1.25,c3=c1+1,t=k-1;return 1+c3*t*t*t+c1*t*t};
+  /* blueprint edges, drawn progressively */
+  const pos=[],v=new T.Vector3();
+  parts.forEach(m=>{m.updateMatrix();const e=new T.EdgesGeometry(m.geometry,25),a=e.attributes.position;for(let i=0;i<a.count;i++){v.fromBufferAttribute(a,i).applyMatrix4(m.matrix);pos.push(v.x,v.y,v.z)}});
+  const lg=new T.BufferGeometry();lg.setAttribute("position",new T.Float32BufferAttribute(pos,3));
+  const total=pos.length/3,lmat=new T.LineBasicMaterial({color:0x9FC3FF,transparent:true,opacity:.95});
+  house.add(new T.LineSegments(lg,lmat));
+  const cBlue=new T.Color(0x9FC3FF),cWhite=new T.Color(0xffffff);
+  const grid=new T.GridHelper(26,26,0x7e9ee0,0x34508f);grid.material.transparent=true;grid.material.opacity=.38;grid.position.x=.9;house.add(grid);
+  const lawn=new T.Mesh(new T.CircleGeometry(9.5,64),std(0x3d6b38,{roughness:1}));lawn.rotation.x=-Math.PI/2;lawn.position.set(1,-.01,.6);house.add(lawn);
+  const path=new T.Mesh(B(1.1,.03,3.2),std(0xD3D7DD));path.position.set(0,.01,5.1);house.add(path);
+  const drive=new T.Mesh(B(2.6,.03,4.2),std(0xB9BEC6));drive.position.set(4.5,.01,4.1);house.add(drive);
+  const shrubs=[];[[-2.6,3.0],[-1.0,3.6],[1.0,3.6],[2.6,3.0],[-3.6,2.3]].forEach(([x,z])=>{const sh=new T.Mesh(new T.SphereGeometry(.42,16,12),std(0x3f6e3c,{roughness:1}));sh.position.set(x,.32,z);sh.scale.set(1,.8,1);house.add(sh);shrubs.push(sh)});
+
+  const stages=[...document.querySelectorAll("#build3d .stages li")],bWord=document.getElementById("b3word"),bNote=document.getElementById("b3note"),bStep=document.getElementById("b3step"),bBar=document.getElementById("b3bar"),bPct=document.getElementById("b3pct");
+  const STG=[["PLAN","Blueprint & estimate"],["BUILD","Walls, roof & openings"],["FINAL","Finishing & walkthrough"]];
+  let lastStage=-1,lastPct=-1;
+  function setMat(m,o){const mt=m.material;mt.opacity=o;m.visible=o>.002;const tr=o<.995;if(mt.transparent!==tr){mt.transparent=tr;mt.depthWrite=!tr||o>.5;mt.needsUpdate=true}}
+  function update(p){
+    const draw=clamp(p/.42,0,1);lg.setDrawRange(0,Math.floor(total*draw/2)*2);
+    const solid=clamp((p-.36)/.42,0,1);
+    parts.forEach(m=>{const u=m.userData,k=clamp((solid-(u.seq/NP)*.62)/.38,0,1);
+      m.visible=k>0;if(!m.visible)return;const e=easeBack(k),r=1-e;
+      m.position.copy(u.base).addScaledVector(u.off,r);m.rotation.x=u.rx*r;m.rotation.z=u.rz*r});
+    const fade=clamp((p-.62)/.28,0,1);lmat.opacity=.95-.8*fade;lmat.color.copy(cBlue).lerp(cWhite,fade);
+    const fin=clamp((p-.8)/.18,0,1);setMat(lawn,fin*.98);setMat(path,fin);setMat(drive,fin);shrubs.forEach((s,i)=>{const k=clamp(fin*1.6-i*.12,0,1);setMat(s,k);s.scale.setScalar(.2+.8*k)});
+    grid.material.opacity=.38*(1-fin);
+    const st=p<.38?0:p<.76?1:2;if(st!==lastStage){lastStage=st;stages.forEach((li,i)=>{li.classList.toggle("on",i<=st);li.classList.toggle("cur",i===st)});
+      bWord.textContent=STG[st][0];bNote.textContent=STG[st][1];bStep.textContent="STEP 0"+(st+1)+" / 03";
+      [bWord,bNote].forEach(el=>{el.classList.remove("flip");void el.offsetWidth;el.classList.add("flip")})}
+    const pct=Math.round(p*100);if(pct!==lastPct){lastPct=pct;bPct.textContent=pct+"%";bBar.style.width=pct+"%"}
+  }
+  let prog=reduce?1:0,target=reduce?1:0,mx=0,my=0,tx=0,ty=0,auto=false;
+  const sec=document.getElementById("build3d");
+  if(hasG&&!reduce){const mm=gsap.matchMedia();
+    mm.add("(min-width: 861px)",()=>{ScrollTrigger.create({trigger:sec,start:"top 88px",end:"+=170%",pin:true,scrub:true,onUpdate:s=>target=s.progress})});
+    mm.add("(max-width: 860px)",()=>{ScrollTrigger.create({trigger:sec,start:"top 76px",end:"+=140%",pin:true,scrub:true,onUpdate:s=>target=s.progress})});
+    ScrollTrigger.refresh();
+  }else if(!reduce){auto=true}
+  if(fine)sec.addEventListener("pointermove",e=>{const r=sec.getBoundingClientRect();tx=(e.clientX-r.left)/r.width-.5;ty=(e.clientY-r.top)/r.height-.5});
+  function size(){const w=wrap.clientWidth,h=wrap.clientHeight;if(!w||!h)return;renderer.setSize(w,h,false);camera.aspect=w/h;camera.fov=w<520?40:28;if(w>860)camera.setViewOffset(w,h,-w*.2,0,w,h);else camera.clearViewOffset();camera.updateProjectionMatrix()}
+  new ResizeObserver(size).observe(wrap);size();
+  let visible=true;new IntersectionObserver(es=>{visible=es[0].isIntersecting},{rootMargin:"100px"}).observe(sec);
+  const look=new T.Vector3(.9,2.1,.6),clock=new T.Clock();
+  function frame(){
+    requestAnimationFrame(frame);
+    if(!visible||document.hidden)return;
+    const t=clock.getElapsedTime();
+    if(auto)target=(Math.sin(t*.35-Math.PI/2)+1)/2;
+    prog+=(target-prog)*.09;mx+=(tx-mx)*.05;my+=(ty-my)*.05;
+    update(prog);
+    const narrow=wrap.clientWidth<600,ang=-1.0+prog*1.2+mx*.35,r=(narrow?30:29)-prog*(narrow?4:4);
+    camera.position.set(Math.sin(ang)*r+.9,6.5+(1-prog)*3.5-my*1.5,Math.cos(ang)*r);
+    camera.lookAt(look);
+    house.rotation.y=Math.sin(t*.4)*.025;
+    renderer.render(scene,camera);
+  }
+  update(prog);frame();
+}
+
+/* start */
+const cur=(location.hash||"#home").slice(1),v0=["home","about","services","work","contact","reviews"].includes(cur)?cur:"home";
+document.querySelectorAll('.view[data-view="'+v0+'"] .hero').forEach(h=>heroIntro(h));
+introDone.then(()=>initView(v0));
+})();
+</script>
+</body>
+</html>
